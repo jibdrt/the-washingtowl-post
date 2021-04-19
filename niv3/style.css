@@ -1,0 +1,71 @@
+
+*{
+    border: red 1px solid;
+}
+
+
+@font-face {
+    font-family: 'Merriweather-r';
+    src: url('Merriweather-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik-bo';
+    src: url('Rubik-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik-r';
+    src: url('Rubik-Regular.ttf');
+}
+
+
+#cybersecu{
+    font-family: 'Merriweather-r';
+    font-size: 22pt;
+    margin-left: 110px;
+    background-color: #27282A;
+}
+
+#articleTitle{
+    font-family: 'Merriweather-r';
+    font-size: 60pt;
+    position: relative;
+    margin: auto;
+    background-color: #2D394E;
+
+}
+
+#keyWords{
+    font-family:'Rubik-bo';
+    font-size: 23pt;
+    position: relative;
+    margin: auto;
+    background-color: #AED9E0;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+#bloc_1{
+    margin-left: 97px;
+}
+
+#glossaire{
+    background-color: #2D394E;
+    font-family: 'Rubik-r';
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+
+#glossaireContent{
+    background-color: #AED9E0;
+    font-family: 'Merriweather-r';
+    font-size: 20px;
+
+}
+
+
+
+
