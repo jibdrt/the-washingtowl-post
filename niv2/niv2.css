@@ -1,0 +1,45 @@
+*{
+    border:solid red 1px;
+}
+
+
+:root{
+    --primary-color: #2D394E;
+    --secondary-color: #7B8AA3;
+    --dark: #27282A;
+    --light:#AED9E0; 
+}
+
+
+.h1{
+    font-family: 'Merriweather';
+    font-size: 56px;
+    background-color:var(--light) ;
+    padding-left: 10px;
+}
+
+h3{
+    font-family: 'Merriweather';
+    font-size: 46px; 
+}
+
+.container-color{
+    background-color: var(--light);
+    border-radius: 5px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-right: 50px;
+   
+}
+
+.image-size{
+    width: 450px;
+    margin-right: auto;
+}
+
+p{
+    font-size: 20px;
+    padding:10px 10px 10px 10px;
+  
+}
+

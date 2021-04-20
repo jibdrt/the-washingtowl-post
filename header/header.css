@@ -1,0 +1,43 @@
+
+:root{
+    --primary-color: #2D394E;
+    --secondary-color: #7B8AA3;
+    --dark: #27282A;
+    --light:#AED9E0; 
+}
+
+.bckg-color{
+    background-color: var(--primary-color);
+}
+#h1{
+    font-family: 'Mermaid Swash Caps';
+    color: white;
+    font-size: 90px;
+    padding-left: 30px;
+}
+
+.logo{
+    float: left; 
+    margin-right: 30px;
+}
+
+.navbar{
+background-color: var(--secondary-color);
+font-size:18px ;
+}
+
+.nav-link{
+    margin-left: 200px;
+    margin-right: 20px;
+}
+
+.nav-link:hover{
+    background-color: var(--light);
+    
+}
+
+
+.navbar-brand:hover{
+    background-color: var(--light);
+    
+}

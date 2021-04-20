@@ -1,4 +1,6 @@
-
+*{
+    border: red solid 1px;
+}
 
 .h4 {
     font-family: 'Merriweather';
@@ -19,7 +21,7 @@
     padding:0;
 }
 
-.body{
+body{
     font-family:'Merriweather';
     width: 100%;
     min-height:100vh;
@@ -68,7 +70,7 @@
     padding-left: 10px;
 }
 
-.container-light{
+.container{
     background-color: var(--light);
     width: 250px;
     height: 200px;
@@ -92,6 +94,13 @@
     background-color: var(--light);
     transform: rotateY(180deg);
 }
+
+
+
+
+
+
+
 
 .card__header--back{
     position: relative;
