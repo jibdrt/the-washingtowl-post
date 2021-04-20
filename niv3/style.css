@@ -1,12 +1,14 @@
 
-*{
-    border: red 1px solid;
-}
 
 
 @font-face {
     font-family: 'Merriweather-r';
     src: url('Merriweather-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Merriweather-bl' ;
+    src: url('Merriweather-Black.ttf');
 }
 
 @font-face {
@@ -22,14 +24,14 @@
 
 #cybersecu{
     font-family: 'Merriweather-r';
-    font-size: 22pt;
-    margin-left: 110px;
+    font-size: 30pt;
     background-color: #27282A;
+    margin-left: 165px;
 }
 
 #articleTitle{
-    font-family: 'Merriweather-r';
-    font-size: 60pt;
+    font-family: 'Merriweather-bl';
+    font-size: 90pt;
     position: relative;
     margin: auto;
     background-color: #2D394E;
@@ -38,7 +40,7 @@
 
 #keyWords{
     font-family:'Rubik-bo';
-    font-size: 23pt;
+    font-size: 35pt;
     position: relative;
     margin: auto;
     background-color: #AED9E0;

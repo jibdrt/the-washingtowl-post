@@ -9,18 +9,19 @@
     <title>pagearticle</title>
 </head>
 <body>
-    <div class="container head">
+    <div class="container-fluid">
             <div class="row">
-                <div class="col-md-2 col-sm-12 text-white" id="cybersecu">Cybersécurité</div>
+        
+                <div class="col-md-2 col-sm-10 text-white" id="cybersecu">Cybersécurité</div>
             </div>
             <div class="row">
-                <div class="col-md-10 col-sm-12 text-white mt-2 mb-2" id="articleTitle">La cryptographie ou l'art du secret</div>
+                <div class="col-md-10 col-sm-12 text-white mt-2 mb-2" id="articleTitle">La cryptographie ou l'art <br>du secret</div>
             </div>
             <div class="row">
                 <div class="col-md-10 col-sm-12" id="keyWords">CHIFFREMENT-CRYPTOSYSTEME-CRYPTANALYSE-CRYPTOLOGIE</div>
             </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-md-6" id="bloc_1"><img src="" alt=""></div>
