@@ -1,5 +1,4 @@
 
-
 @font-face {
     font-family: 'Merriweather-r';
     src: url('Merriweather-Regular.ttf');
@@ -34,8 +33,12 @@
     position: relative;
     margin: auto;
     background-color: #2D394E;
-
 }
+
+@media screen and (max-width: 64em) {
+    #articleTitle {
+        font-size: 20pt;}}
+
 
 #keyWords{
     font-family:'Rubik-bo';
@@ -56,7 +59,7 @@
 #glossaire{
     background-color: #2D394E;
     font-family: 'Rubik-r';
-    padding-top: 50px;
+    padding-top: 30px;
     font-size: 40px;
 }
 
@@ -65,27 +68,59 @@
     background-color: #AED9E0;
     font-family: 'Merriweather-r';
     font-size: 20px;
+    padding: 20px;
 
 }
+
+
+
 
 #firstImage{
     height: 490px;
 }
 
+@media screen and (max-width: 805px) {
+   #firstImage{
+      display: none;
+   }}
+
+
 #cryptoNumeri{
     background-color: #2D394E;
     font-family: 'Merriweather-r';
-    font-size: 44px;
+    font-size: 40px;
 }
 
 #cryptoNumeriTxt{
     background-color: #AED9E0 ;
     font-family: 'Rubik-r';
+    margin-top: -29px;
+    padding: 20px;
+    color: black;
+    
 }
 
 #cryptoNumeriTxt1{
     background-color: #AED9E0 ;
     font-family: 'Rubik-r';
+    padding: 20px;
+    margin-top: -35px;
 
 }
 
+#cryptoNumeriEnd{
+    background-color: #AED9E0 ;
+    font-family: 'Rubik-r';
+    height: 250px;
+    
+   
+
+}
+
+#comput{
+    width: 118%;
+    margin-right: 222pt;
+    
+
+
+}
