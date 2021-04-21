@@ -14,9 +14,10 @@
  --light:#AED9E0; 
 
 }
-*{
+.card{
     margin:0;
     padding:0;
+    border-radius: 15px;
 }
 
 .body{
@@ -29,6 +30,7 @@
     margin: 100px auto 0;
     width: 400px;
     height: 600px;
+    
 }
 
 .card__inner{
@@ -55,7 +57,7 @@
 }
 
 .card__face{
-    background-image: linear-gradient( to bottom right, var(--primary-color), var(--secondary-color));
+    background-image: linear-gradient( to bottom right, var(--light), var(--dark));
     
 }
 
@@ -133,7 +135,8 @@ button{
     border-radius: 10px;
     align-content: center;
     margin-top: 50px;
-    margin-left: 100px;  
+    margin-left: 100px; 
+    box-shadow:var(-) 5px 5px 5px; 
 }
 
 button:hover{
