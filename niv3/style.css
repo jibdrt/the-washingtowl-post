@@ -1,13 +1,12 @@
 
 
-
 @font-face {
     font-family: 'Merriweather-r';
     src: url('Merriweather-Regular.ttf');
 }
 
 @font-face {
-    font-family: 'Merriweather-bl' ;
+    font-family: 'Merriweather-bl';
     src: url('Merriweather-Black.ttf');
 }
 
@@ -24,14 +23,14 @@
 
 #cybersecu{
     font-family: 'Merriweather-r';
-    font-size: 30pt;
+    font-size: 22pt;
+    margin-left: 110px;
     background-color: #27282A;
-    margin-left: 165px;
 }
 
 #articleTitle{
-    font-family: 'Merriweather-bl';
-    font-size: 90pt;
+    font-family: 'Merriweather-r';
+    font-size: 60pt;
     position: relative;
     margin: auto;
     background-color: #2D394E;
@@ -40,7 +39,7 @@
 
 #keyWords{
     font-family:'Rubik-bo';
-    font-size: 35pt;
+    font-size: 23pt;
     position: relative;
     margin: auto;
     background-color: #AED9E0;
@@ -51,13 +50,14 @@
 
 #bloc_1{
     margin-left: 97px;
+
 }
 
 #glossaire{
     background-color: #2D394E;
     font-family: 'Rubik-r';
     padding-top: 50px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 
@@ -68,6 +68,24 @@
 
 }
 
+#firstImage{
+    height: 490px;
+}
 
+#cryptoNumeri{
+    background-color: #2D394E;
+    font-family: 'Merriweather-r';
+    font-size: 44px;
+}
 
+#cryptoNumeriTxt{
+    background-color: #AED9E0 ;
+    font-family: 'Rubik-r';
+}
+
+#cryptoNumeriTxt1{
+    background-color: #AED9E0 ;
+    font-family: 'Rubik-r';
+
+}
 
