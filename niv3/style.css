@@ -1,6 +1,6 @@
 
 body{
-    zoom: 80%;
+    zoom: 70%;
 }
 
 #paper_io{
@@ -36,6 +36,15 @@ body{
     background-color: #27282A;
 }
 
+
+@media screen and (max-width:805px) {
+    #cybersecu{
+        width: 210px;
+       
+    }
+    
+}
+
 #articleTitle{
     font-family: 'Merriweather-r';
     font-size: 60pt;
@@ -57,7 +66,7 @@ body{
     text-align: center;
     letter-spacing: 1px;
     margin-bottom: 12px;
-    background-image: url("paper.jpg");
+    background-color: white;
 }
 
 #bloc_1{
@@ -102,7 +111,8 @@ body{
 }
 
 #cryptoNumeriTxt{
-    background-color: #AED9E0 ;
+    background-image:url("colorspot.png");
+    background-size: 800px;
     font-family: 'Rubik-r';
     margin-top: -29px;
     padding: 20px;
@@ -111,7 +121,9 @@ body{
 }
 
 #cryptoNumeriTxt1{
-    background-color: #AED9E0 ;
+    background-image:url("colorspot.png");
+    background-position: left;
+    background-size: 1200px;
     font-family: 'Rubik-r';
     padding: 20px;
     margin-top: -35px;
@@ -119,7 +131,9 @@ body{
 }
 
 #cryptoNumeriEnd{
-    background-color: #AED9E0 ;
+    background-image:url("colorspot.png");
+    background-position: right;
+    background-size: 700px;
     font-family: 'Rubik-r';
     height: 250px;
     
@@ -173,7 +187,7 @@ width : 600px;
 .title2{
     font-family: 'Merriweather-r';
     font-size: 58px;
-    background-color: #AED9E0;
+    background-color: white;
     
     z-index: 2;
     
@@ -192,6 +206,12 @@ width : 600px;
 }
 
 
+#secTitle{
+    background-image: url('colorspot.png');
+    background-position: top;
+}
+
+
 @media screen and (max-width: 805px) {
     #secTitle{
         font-size: 24px;
@@ -203,13 +223,41 @@ width : 600px;
 
 #cryptoBG{
     background-color: #2D394E;
+    box-shadow: 8px 8px  #27282A;
 }
 
 #cryptoBG1{
     background-color: #AED9E0;
+    box-shadow: 8px 8px  #27282A;
 }
 
+@media screen and (max-width:805px) {
+   #cryptoBG{
+        width: 500px;
+   }
+}
 
+@media screen and (max-width:805px) {
+   #cryptoBG1{
+       width: 500px ;
+   }
+}
+
+@media screen and (max-width: 805px) {
+    #cryptoNumeriEnd{
+        width: 600px;
+
+    }
+    }
+
+    @media screen and (max-width: 805px) {
+        #cryptoNumeriTxt1{
+            width: 600px;
+            margin: auto;
+        }
+        }
+    
+    
 
 
 /*7B8AA3

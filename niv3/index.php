@@ -9,10 +9,6 @@
     <title>pagearticle</title>
 </head>
 <body>
-
-
-
-
     <div class="container">
             <div class="row">
                 <div class="col-md-2 col-sm-6 p-1 text-white mt-2" id="cybersecu">Cybersécurité</div>
@@ -21,24 +17,21 @@
                 <div class="col-md-10 col-sm-12 col-xs-12 text-white mt-2 mb-3" id="articleTitle">La cryptographie ou l'art du secret</div>
             </div>
             <div class="row">
-                <div class="col-md-10 col-sm-12 mb-4" id="keyWords">CHIFFREMENT-CRYPTOSYSTEME-CRYPTANALYSE-CRYPTOLOGIE</div>
+                <div class="col-md-10 col-sm-12 mb-4" id="keyWords">CHIFFREMENT | CRYPTOSYSTEME | CRYPTANALYSE | CRYPTOLOGIE</div>
             </div>
     </div>
     
         <div class="container">
             <div class="row pb-3">
                         <div class="col-md-6 col-sm-12 me-2" id="bloc_1"><img src="dictio.jpg" alt="" class="col-sm-12" id="firstImage"></div>
-
                     <div class="col-md-5 pb-4 ps-3" id="glossaire"         style="color:#FFFF"><p class="ps-5">GLOSSAIRE</p>
                         <div class="col-md-9 mx-auto" id="glossaireContent" style="color:#333">CHIFFREMENT: remplacer les caractère d'un texte "en clair" par d'autre pour le rendre illisible.<br>
                         CRYPTOSYSTEME: algoritme de chiffrement.<br>
                         CRYPTANALYSE: science de l'étude des messages   chiffrées en vue de leur                  déchiffrement.<br>
                         CRYPTOLOGIE: science regroupant la cryptographie et la  cryptanalyse.<div>
-
                     </div>
             </div>
         </div>
-
     <div class="container">
         <div class="row">
             <div class="col-md-1"></div>
@@ -49,8 +42,7 @@
                      </h1>
                  </div>
                 <div class="row">
-                <div class="col-md-12 col-sm-12 mt-1" id="cryptoNumeriTxt"><p>Dans le numérique, la cryptographie est omni-présente. D'abord utilisé dans les communications militaires, puis dans les messages relevants du secret d'état en général (sphère diplomatique,...), elle s'est continuellement perfectionné et démocratisé. En effet, les secteurs bancaires et industriels ont rapidement compris que la posession de technologie fiables serait vital, pour sécurisé les informations bancaires et contrer l'espionnage industriel. Aujourd'hui, sur internet, le simple fait de rentrer sur un espace personel demande par exemple:</p></div>
-
+                <div class="col-md-12 col-sm-12 mt-1 rounded" id="cryptoNumeriTxt"><p>Dans le numérique, la cryptographie est omni-présente. D'abord utilisé dans les communications militaires, puis dans les messages relevants du secret d'état en général (sphère diplomatique,...), elle s'est continuellement perfectionné et démocratisé. En effet, les secteurs bancaires et industriels ont rapidement compris que la posession de technologie fiables serait vital, pour sécurisé les informations bancaires et contrer l'espionnage industriel. Aujourd'hui, sur internet, le simple fait de rentrer sur un espace personel demande par exemple:</p></div>
                 </div>
              </div>
              <div class="col-md-1 ms-4">
@@ -61,19 +53,12 @@
              <div class="col-md-4 col-sm-12 ms-5 mt-3 ps-5 pt-2" id="cryptoNumeriEnd"><p>• un procédé cryptographique pour rendre <br>identifiants et mots de passe illisible à un <br>attaquant qui interceperait la <br>communication.<br>
              <br>
             • un procédé cryptographique pour rendre<br> illisible les pages qui s'échangeront après<br> authentification.</p>
-
         </div>
         </div>
-
         <div class="row">
             <div class="col-md-1 col-sm-1"></div>
             <div class="col-md-5 col-sm-12" id="cryptoNumeriTxt1"><p>• un procédé cryptographique de certification du domaine (pour s'assurer que l'on ne se trouve pas sur un faux site destinné à voler notre mot de passe via le formulaire d'entrer par exemple)</p></div>
-
-
-
-
         </div>
-
     </div>
     <div class="row">
         <div class="row text-white">ARTICLE</div>
@@ -81,31 +66,23 @@
         <div class="col-md-10 col-sm-12 mt-5" id="separ"><img src="line.png" alt="" id="line"></div>
     
     </div>
-
        <div class="row">
-
          
             <div class="col-md-11 col-sm-12 ms-5 mb-5"><h2 class="title2 p-3 ms-5" ><p class="ms-5 ps-5 pt-1" id="secTitle">La cryptographie <br>dans les métiers du numérique</p></h2></div>
-
-
        </div>
-       <div class="row mx-auto ms-5" id="">
-
+       <div class="row mx-auto ms-5" id="responsi">
             
             <div class="col-md-3 col-sm-12 ms-4">
-
-                <div class="row m-3 border border-dark">
+                <div class="row m-3">
                     <div class="col-md-12 text-white p-3" id="cryptoBG">
                         <p>
                              <b>Cryptologue</b><br>
-
                             Cryptologue n’est pas un métier commun. Il s’agit davantage d’une personne à l’esprit mathématique qui invente de nouvelles méthodes de cryptages ou recherche d’éventuelles nouvelles failles.
                             La cryptanalyse, la cryptographie symétrique et asymétrique sont des sous-discipline de la cryptologie.
                         </p>
                     </div>
                 </div>
                 <div class="row m-3 p-3" id="cryptoBG1">
-
                          <p>
                             <b>Analyste en sécurité</b><br>
                             Vérifie que les systèmes de sécurité d’une entreprise fonctionnent et correspondent aux standards actuels.
@@ -113,14 +90,10 @@
                 
               
                 </div>
-
             </div>
             <div class="col-md-4 col-sm-12 ms-4">
-
                 <div class="row m-3 p-3" id="cryptoBG1"><p><b>Pentesteur</b>
-<br>Le pentesteur cherche des failles de sécurité dans le but de les corrigées. Il s'agit d’adopter le comportement d'un pirate pour déceler les failles avant qu'un vrai hacker ne puisse les exploiter. Le pentester est souvent confronté a la cryptographie, il est la plupart du temps formé à la cryptanalyse. (voir Le Pentesteur ou le Corsaire des Hackers).</p></div>
-
-
+                <br>Le pentesteur cherche des failles de sécurité dans le but de les corrigées. Il s'agit d’adopter le comportement d'un pirate pour déceler les failles avant qu'un vrai hacker ne puisse les exploiter. Le pentester est souvent confronté a la cryptographie, il est la plupart du temps formé à la cryptanalyse. (voir Le Pentesteur ou le Corsaire des Hackers).</p></div>
             </div>
             <div class="col-md-4 col-sm-12 ms-4">
                 
@@ -137,13 +110,10 @@
                     </p>
             </div>
                
-
             </div>
         
        </div>
-
         <div class="container ms-3">
-
             <div class="row ms-5">
                 <div class="col-md-6 ms-4">
                     <p  id="cryptoBG" class="p-3 text-white">
@@ -151,19 +121,15 @@
                         Développeur spécialisé dans le cryptage des données sensibles.
                     </p>
                 </div>
-
             </div>
-
             <div class="row ms-5">
                 <div class="col-md-6 ms-4">
-
                     <p id="cryptoBG1" class="p-3">
                         <b>Ingénieur en sécurité</b><br>
                         Il s’agit d’un métier consistant en l’élaboration de la sécurisation d’un réseau.
                     </p>
                 </div>
             </div>
-
         </div>
            
         </div>
