@@ -9,6 +9,10 @@
     <title>pagearticle</title>
 </head>
 <body>
+
+
+
+
     <div class="container">
             <div class="row">
                 <div class="col-md-2 col-sm-6 p-1 text-white mt-2" id="cybersecu">Cybersécurité</div>
@@ -51,7 +55,7 @@
              </div>
              <div class="col-md-1 ms-4">
                  <div class="row">
-                    <div class="col-md-12 mt-5 me-5"><img src="comput.jpg" alt="" id="comput"></div>
+                    <div class="col-md-12 col-sm-12 mt-5 me-5"><img src="comput.jpg" alt="" id="comput"></div>
                 </div>
              </div>
              <div class="col-md-4 col-sm-12 ms-5 mt-3 ps-5 pt-2" id="cryptoNumeriEnd"><p>• un procédé cryptographique pour rendre <br>identifiants et mots de passe illisible à un <br>attaquant qui interceperait la <br>communication.<br>
@@ -62,7 +66,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-1"></div>
+            <div class="col-md-1 col-sm-1"></div>
             <div class="col-md-5 col-sm-12" id="cryptoNumeriTxt1"><p>• un procédé cryptographique de certification du domaine (pour s'assurer que l'on ne se trouve pas sur un faux site destinné à voler notre mot de passe via le formulaire d'entrer par exemple)</p></div>
 
 
@@ -73,11 +77,95 @@
     </div>
     <div class="row">
         <div class="row text-white">ARTICLE</div>
-        <div class="col-md-2 ms-5"><img src="square.png" alt=""></div>
-        <div class="col-md-10 mt-5" id="separ"><img src="line.png" alt="" id="line"></div>
+        <div class="col-md-2 col-sm-1 ms-5 pb-2"><img src="square.png" alt="" id="squ"></div>
+        <div class="col-md-10 col-sm-12 mt-5" id="separ"><img src="line.png" alt="" id="line"></div>
     
     </div>
 
+       <div class="row">
 
+         
+            <div class="col-md-11 col-sm-12 ms-5 mb-5"><h2 class="title2 p-3 ms-5" ><p class="ms-5 ps-5 pt-1" id="secTitle">La cryptographie <br>dans les métiers du numérique</p></h2></div>
+
+
+       </div>
+       <div class="row mx-auto ms-5" id="">
+
+            
+            <div class="col-md-3 col-sm-12 ms-4">
+
+                <div class="row m-3 border border-dark">
+                    <div class="col-md-12 text-white p-3" id="cryptoBG">
+                        <p>
+                             <b>Cryptologue</b><br>
+
+                            Cryptologue n’est pas un métier commun. Il s’agit davantage d’une personne à l’esprit mathématique qui invente de nouvelles méthodes de cryptages ou recherche d’éventuelles nouvelles failles.
+                            La cryptanalyse, la cryptographie symétrique et asymétrique sont des sous-discipline de la cryptologie.
+                        </p>
+                    </div>
+                </div>
+                <div class="row m-3 p-3" id="cryptoBG1">
+
+                         <p>
+                            <b>Analyste en sécurité</b><br>
+                            Vérifie que les systèmes de sécurité d’une entreprise fonctionnent et correspondent aux standards actuels.
+                        </p>
+                
+              
+                </div>
+
+            </div>
+            <div class="col-md-4 col-sm-12 ms-4">
+
+                <div class="row m-3 p-3" id="cryptoBG1"><p><b>Pentesteur</b>
+<br>Le pentesteur cherche des failles de sécurité dans le but de les corrigées. Il s'agit d’adopter le comportement d'un pirate pour déceler les failles avant qu'un vrai hacker ne puisse les exploiter. Le pentester est souvent confronté a la cryptographie, il est la plupart du temps formé à la cryptanalyse. (voir Le Pentesteur ou le Corsaire des Hackers).</p></div>
+
+
+            </div>
+            <div class="col-md-4 col-sm-12 ms-4">
+                
+            <div class="row m-3 border border-dark text-white p-3" id="cryptoBG">
+                <p>
+                    <b>Consultant en sécurité</b><br>
+                    Il s’agit généralement d’une personne extérieure à la structure pour laquelle elle travaille. Donne conseils et recommandations en matière de sécurité et oeuvre à la mise en place de ces derniers.
+                </p>
+            </div>
+            <div class="row m-3 p-3" id="cryptoBG1">
+                    <p>
+                        <b>Technicien réseau</b><br>
+                        Le technicien réseau peut être amené à gérer la sécurité des serveurs et les données échangées, il peut donc aussi lui être demandé d'avoir des compétences en cryptologie.
+                    </p>
+            </div>
+               
+
+            </div>
+        
+       </div>
+
+        <div class="container ms-3">
+
+            <div class="row ms-5">
+                <div class="col-md-6 ms-4">
+                    <p  id="cryptoBG" class="p-3 text-white">
+                        <b>Développeur cryptographe</b><br>
+                        Développeur spécialisé dans le cryptage des données sensibles.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="row ms-5">
+                <div class="col-md-6 ms-4">
+
+                    <p id="cryptoBG1" class="p-3">
+                        <b>Ingénieur en sécurité</b><br>
+                        Il s’agit d’un métier consistant en l’élaboration de la sécurisation d’un réseau.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+           
+        </div>
 </body>
 </html>

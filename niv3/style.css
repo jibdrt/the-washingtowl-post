@@ -1,5 +1,11 @@
 
+body{
+    zoom: 80%;
+}
 
+#paper_io{
+    background-image: url("paper.jpg");
+}
 
 
 @font-face {
@@ -48,10 +54,10 @@
     font-size: 23pt;
     position: relative;
     margin: auto;
-    background-color: #AED9E0;
     text-align: center;
     letter-spacing: 1px;
     margin-bottom: 12px;
+    background-image: url("paper.jpg");
 }
 
 #bloc_1{
@@ -72,6 +78,7 @@
     font-family: 'Merriweather-r';
     font-size: 20px;
     padding: 20px;
+    background-image: url("paper.jpg");
 
 }
 
@@ -131,6 +138,18 @@
 }
 
 
+@media screen and (max-width: 805px) {
+    #comput{
+        margin: auto;
+        margin-top: -80px;
+
+    }
+}
+
+
+
+
+
 #separ{
 border-top: 1px solid #ffffff;
 width : 600px;
@@ -141,3 +160,56 @@ width : 600px;
     width: 1050px;
     margin-left: -50px;
 }
+
+@media screen and (max-width: 805px){
+    #line{
+        display: none;
+    
+    }
+}
+
+
+
+.title2{
+    font-family: 'Merriweather-r';
+    font-size: 58px;
+    background-color: #AED9E0;
+    
+    z-index: 2;
+    
+    
+}
+
+.title2end{
+    background-color: #AED9E0;
+}
+
+
+@media screen and (max-width: 805px) {
+    #squ{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 805px) {
+    #secTitle{
+        font-size: 24px;
+
+    
+    }
+    
+}
+
+#cryptoBG{
+    background-color: #2D394E;
+}
+
+#cryptoBG1{
+    background-color: #AED9E0;
+}
+
+
+
+
+/*7B8AA3
