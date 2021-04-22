@@ -50,7 +50,7 @@
                     <div class="col-md-12 col-sm-12 mt-5 me-5"><img src="comput.jpg" alt="" id="comput"></div>
                 </div>
              </div>
-             <div class="col-md-4 col-sm-12 ms-5 mt-3 ps-5 pt-2" id="cryptoNumeriEnd"><p>• un procédé cryptographique pour rendre <br>identifiants et mots de passe illisible à un <br>attaquant qui interceperait la <br>communication.<br>
+             <div class="col-md-4 col-sm-12 ms-5 mt-3 ps-5 pt-4" id="cryptoNumeriEnd"><p>• un procédé cryptographique pour rendre <br>identifiants et mots de passe illisible à un <br>attaquant qui interceperait la <br>communication.<br>
              <br>
             • un procédé cryptographique pour rendre<br> illisible les pages qui s'échangeront après<br> authentification.</p>
         </div>

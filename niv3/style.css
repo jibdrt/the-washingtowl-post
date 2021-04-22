@@ -121,9 +121,9 @@ body{
 }
 
 #cryptoNumeriTxt1{
-    background-image:url("colorspot.png");
+    background-image:url("colorupdown.png");
     background-position: left;
-    background-size: 1200px;
+    background-size: 600px;
     font-family: 'Rubik-r';
     padding: 20px;
     margin-top: -35px;
