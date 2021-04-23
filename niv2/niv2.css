@@ -1,5 +1,16 @@
 
 
+
+body{
+    zoom:90%
+}
+
+
+.body-image{
+    background-image: url(../assets/background.jpg);
+}
+
+
 :root{
     --primary-color: #2D394E;
     --secondary-color: #7B8AA3;
@@ -11,20 +22,24 @@
 .h1{
     font-family: 'Merriweather';
     font-size: 56px;
-    background-color:var(--light) ;
+    background-color:var(--light);
     padding-left: 10px;
+    border: white 5px solid;
 }
 
 h3{
     font-family: 'Merriweather';
     font-size: 46px; 
+    background-color:var(--light) ;
+    padding-left: 10px;
+    border: white 5px solid;
 }
 
 
 #image-size{
     height: 480px;
     margin-right: auto;
-    border: solid 5px var(--dark)
+    border: solid 10px white
     
    
 }
@@ -32,7 +47,6 @@ h3{
     #image-size{
     position: absolute;
     margin-top: -56px;
-
     } 
 }
 
@@ -43,8 +57,10 @@ h3{
 
 #p{
     font-size: 20px;
-    padding:10px 10px 10px 10px; 
-    margin-left: 15px;
+    padding:20px 20px 20px 20px; 
+    margin-left: 30px;
+    background-color: var(--light);
+    border: solid 3px var(--primary-color)
 }
 
 #p2{
@@ -53,44 +69,37 @@ h3{
     margin-top: 50px;
     margin-left: -10px;
     background-color: var(--light);
+    border: white 5px solid;
 }
 
 
 
-.bckgrd-color{
-    background-color: var(--light);
-    border-radius: 10px; 
-}
+
 
 
 .blue-line{
     background-color: var(--primary-color);
 }
 
+
 .bckgrd-color-2{
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     margin-right: 50px;
     border-radius: 10px; 
-    margin-top: 25px;
     margin-left: 50px;
+    border: white solid 10px;
 }
 
-#row-card-1{
-margin-bottom: -40px;
-margin-top: 40px;
-}
-
-#row-card-2{
-    margin-top: -20px;
-    margin-bottom: 30px;
-}
 
 
 #img-size-2{
     width: 100%;
     margin-left: 20px;
-   
     display: flex;
-    border: solid 5px var(--dark)
+    border: solid 10px white
 }
 
+#body-image-card{
+    background-image: url(../assets/background.jpg);
+    opacity: 99%;
+}

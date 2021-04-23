@@ -1,5 +1,4 @@
 
-
 .h4 {
     font-family: 'Merriweather';
     color:black;
@@ -14,15 +13,7 @@
  --light:#AED9E0; 
 
 }
-.card{
-    margin:0;
-    padding:0;
-    border-radius: 15px;
-    background-image: url(../assets/background.jpg);
-    margin: 50px auto 0;
-    width: 400px;
-    height: 600px;
-}
+
 
 .body{
     font-family:'Merriweather';
@@ -30,7 +21,14 @@
     min-height:100vh;
 }
 
-.card__inner{
+.card-3{
+    margin: 100px auto 0;
+    width: 400px;
+    height: 300px;
+    background-image: url(../assets/background.jpg);
+}
+
+.card__inner,.card__inner-2, .card__inner-3{
     width: 100%;
     height: 100%;
     transition: transform 1s;
@@ -39,11 +37,11 @@
     position: relative;
 }
 
-.card__inner.is-flipped{
+.card__inner.is-flipped, .card__inner-2.is-flipped, .card__inner-3.is-flipped{
     transform: rotateY(180deg);
 }
 
-.card__face{
+.card__face-3{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -53,51 +51,60 @@
     box-shadow: 0px 3px 18px 3px rgba(0,0,0,0.2);
 }
 
-.card__face{
+.card__face-3{
     background-image: linear-gradient( to bottom right, var(--primary-color), var(--dark));
     
 }
 
-.card__header--front {
+.card__header--front-3 {
     align-items: top ;
     justify-content: center;
-    color: #000;
+    color: #fff;
     font-size: 18px;
     padding-top: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: var(--dark);
+    border-radius: 10px;
 }
 
-.container-light{
+.container-hacking-3{
     background-color: var(--light);
     width: 250px;
     height: 200px;
-    font-size: 26px;
+    font-size: 22px;
     position: relative;
-    margin: 100px 30px 30px; 
+    margin: 90px 30px 30px; 
     box-shadow:var(--dark) 10px 10px 10px; 
-    border-radius: 10px;   
+    border-radius: 10px;  
+    padding-left: 5px; 
+    padding-right: 5px;
 }
 
-.container-white{
-    width: 300px;
+.container-white-3{
+    width: 500px;
     height: 500px;
     background-image: url(../assets/background.jpg);
     border-radius: 16px;
     margin: auto; 
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
-.card__face--back{
+.card__face--back-3{
     background-color: var(--light);
     transform: rotateY(180deg);
 }
 
-.card__header--back{
+
+.card__header--back-3{
     position: relative;
     padding: 30px 30px 40px;
+   
 }
 
-.card__body--back{
+.card__body--back-3{
     align-items: bottom;
 }
 
@@ -106,6 +113,8 @@
 .card__face--back h2{
     color: #fff;
     font-size: 32px; 
+    background-color: var(--dark);
+    border-radius: 10px;
 }
 
 .img{
@@ -114,6 +123,7 @@
     height: 300px;
     position: relative;
     margin:auto;
+    margin-bottom: 10px;
 }
 
 
@@ -127,9 +137,8 @@ button{
     background-color: var(--light);
     border-radius: 10px;
     align-content: center;
-    margin-top: 50px;
-    margin-left: 100px; 
-    box-shadow:var(-) 5px 5px 5px; 
+    margin-top: 0px;
+    margin-left: 100px;  
 }
 
 button:hover{

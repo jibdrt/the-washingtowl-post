@@ -1,10 +1,9 @@
 
+
 .h4 {
     font-family: 'Merriweather';
     color:black;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    text-align: center;   
 }
 :root{
  --primary-color: #2D394E;
@@ -13,22 +12,23 @@
  --light:#AED9E0; 
 
 }
+.card-2{
+    margin:0;
+    padding:0;
+    border-radius: 15px;
+    background-image: url(../assets/background.jpg);
+    margin: 50px auto 0;
+    width: 500px;
+    height: 400px;
+}
 
-
-.body{
+.body-2{
     font-family:'Merriweather';
     width: 100%;
     min-height:100vh;
 }
 
-.card{
-    margin: 100px auto 0;
-    width: 400px;
-    height: 600px;
-    background-color: var(--secondary-color);
-}
-
-.card__inner,.card__inner-2{
+.card__inner-2{
     width: 100%;
     height: 100%;
     transition: transform 1s;
@@ -37,11 +37,11 @@
     position: relative;
 }
 
-.card__inner.is-flipped, .card__inner-2.is-flipped{
+.card__inner.is-flipped-2{
     transform: rotateY(180deg);
 }
 
-.card__face{
+.card__face-2{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -51,79 +51,68 @@
     box-shadow: 0px 3px 18px 3px rgba(0,0,0,0.2);
 }
 
-.card__face{
+.card__face-2{
     background-image: linear-gradient( to bottom right, var(--primary-color), var(--dark));
     
 }
 
-.card__header--front {
+.card__header--front-2 {
     align-items: top ;
     justify-content: center;
-    color: #fff;
+    color: #000;
     font-size: 18px;
     padding-top: 10px;
-    padding-left: 20px;
-    margin-top: 25px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: var(--dark);
-    border-radius: 10px;
+    padding-left: 10px;
 }
 
-.container-hacking{
+.container-light-2{
     background-color: var(--light);
     width: 250px;
-    height: 200px;
-    font-size: 22px;
+    height: 150px;
+    font-size: 26px;
     position: relative;
-    margin: 90px 30px 30px; 
+    margin: 20px 30px 30px; 
+    padding: 10px 10px 10px 10px;
     box-shadow:var(--dark) 10px 10px 10px; 
-    border-radius: 10px;  
-    padding-left: 5px; 
-    padding-right: 5px;
+    border-radius: 10px;   
 }
 
 .container-white-2{
     width: 300px;
     height: 300px;
-    background-color: white;
+    background-image: url(../assets/background.jpg);
     border-radius: 16px;
     margin: auto; 
     margin-top: 50px;
 }
 
-.card__face--back{
+.card__face--back-2{
     background-color: var(--light);
     transform: rotateY(180deg);
 }
 
-
-.card__header--back{
+.card__header--back-2{
     position: relative;
     padding: 30px 30px 40px;
-   
 }
 
-.card__body--back{
+.card__body--back-2{
     align-items: bottom;
 }
 
 
 
-.card__face--back h2{
+.card__face--back-2 h2{
     color: #fff;
     font-size: 32px; 
-    background-color: var(--dark);
-    border-radius: 10px;
 }
 
-.img{
+.img-2{
     display: block;
     width: 300px;
-    height: 300px;
+    height: 150px;
     position: relative;
     margin:auto;
-    margin-bottom: 10px;
 }
 
 
@@ -137,8 +126,9 @@ button{
     background-color: var(--light);
     border-radius: 10px;
     align-content: center;
-    margin-top: 0px;
-    margin-left: 100px;  
+    margin-top: 50px;
+    margin-left: 100px; 
+    box-shadow:var(-) 5px 5px 5px; 
 }
 
 button:hover{
