@@ -94,7 +94,15 @@
             <div class="col-md-4 col-sm-12 ms-4">
                 <div class="row m-3 p-3" id="cryptoBG1"><p><b>Pentesteur</b>
                 <br>Le pentesteur cherche des failles de sécurité dans le but de les corrigées. Il s'agit d’adopter le comportement d'un pirate pour déceler les failles avant qu'un vrai hacker ne puisse les exploiter. Le pentester est souvent confronté a la cryptographie, il est la plupart du temps formé à la cryptanalyse. (voir Le Pentesteur ou le Corsaire des Hackers).</p></div>
+
+           <img src="digitalnv3.jpg" id="digitalpic" alt="">
             </div>
+
+        
+
+
+
+
             <div class="col-md-4 col-sm-12 ms-4">
                 
             <div class="row m-3 border border-dark text-white p-3" id="cryptoBG">
@@ -113,7 +121,7 @@
             </div>
         
        </div>
-        <div class="container ms-3">
+        <div class="container ms-3" id="onpic">
             <div class="row ms-5">
                 <div class="col-md-6 ms-4">
                     <p  id="cryptoBG" class="p-3 text-white">

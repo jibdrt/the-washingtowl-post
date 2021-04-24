@@ -229,6 +229,7 @@ width : 600px;
 #cryptoBG1{
     background-color: #AED9E0;
     box-shadow: 8px 8px  #27282A;
+    z-index: 1;
 }
 
 @media screen and (max-width:805px) {
@@ -260,4 +261,17 @@ width : 600px;
     
 
 
-/*7B8AA3
+/*7B8AA3*/
+
+#digitalpic{
+    width: 800px;
+    margin-left: 20px;
+
+
+}
+
+#onpic{
+    z-index: 2;
+    margin-top: -230px;
+    padding-bottom: 200px;
+}
