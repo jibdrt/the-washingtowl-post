@@ -1,17 +1,23 @@
+.card__header--front--3--h2 {
+    font-family: 'rubik';
+    color:white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    font-size: 18px;
+}
 
-.h4 {
-    font-family: 'Merriweather';
-    color:black;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+.card__face--quote{
+    font-size: 24px;
+    font-family: 'rubik';
+    padding: 30px 20px 20px 20px;
+    margin: auto;
 }
 :root{
  --primary-color: #2D394E;
  --secondary-color: #7B8AA3;
  --dark: #27282A;
  --light:#AED9E0; 
-
 }
 
 
@@ -23,8 +29,8 @@
 
 .card-3{
     margin: 100px auto 0;
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     background-image: url(../assets/background.jpg);
 }
 
@@ -49,11 +55,7 @@
     overflow:hidden;
     border-radius: 16px;
     box-shadow: 0px 3px 18px 3px rgba(0,0,0,0.2);
-}
-
-.card__face-3{
     background-image: linear-gradient( to bottom right, var(--primary-color), var(--dark));
-    
 }
 
 .card__header--front-3 {
@@ -70,7 +72,7 @@
     border-radius: 10px;
 }
 
-.container-hacking-3{
+.card__face--3--container-light{
     background-color: var(--light);
     width: 250px;
     height: 200px;
@@ -83,14 +85,14 @@
     padding-right: 5px;
 }
 
-.container-white-3{
-    width: 500px;
+.card__face--3--container-white{
+    width: 300px;
     height: 500px;
     background-image: url(../assets/background.jpg);
     border-radius: 16px;
-    margin: auto; 
-    margin-top: 0px;
+    margin: 0px 20px 50px 20px;
 }
+
 
 .card__face--back-3{
     background-color: var(--light);
@@ -108,15 +110,6 @@
     align-items: bottom;
 }
 
-
-
-.card__face--back h2{
-    color: #fff;
-    font-size: 32px; 
-    background-color: var(--dark);
-    border-radius: 10px;
-}
-
 .img{
     display: block;
     width: 300px;
@@ -128,7 +121,8 @@
 
 
 
-button{
+
+.card__footer--back--3--button{
     height: 75px;
     width: 200px;
     margin-top: 50px;
@@ -137,11 +131,23 @@ button{
     background-color: var(--light);
     border-radius: 10px;
     align-content: center;
-    margin-top: 0px;
-    margin-left: 100px;  
+    margin-top: 20px;
+    margin-left: 200px;  
 }
 
-button:hover{
+.card__footer--back--3--button:hover{
     background-color: var(--primary-color);
     color: white;
+}
+
+
+.card__body--back-3--paragraphe{
+    font-family: 'rubik';
+    font-size: 20px;
+    padding:20px 20px 20px 20px;; 
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: var(--light);
+    border: white 5px solid;
 }

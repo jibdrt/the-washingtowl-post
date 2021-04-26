@@ -1,0 +1,40 @@
+:root{
+    --primary-color: #2D394E;
+    --secondary-color: #7B8AA3;
+    --dark: #27282A;
+    --light:#AED9E0; 
+}
+
+.footer__background-color{
+    background-color: var(--primary-color);
+    font-family: 'rubik';
+    font-size: 18px;
+}
+
+.footer_font-color{
+    color: white;
+}
+
+
+#footer__haut-page{
+    margin-left: 50px;
+}
+#footer__haut-page:hover{
+    background-color: white;
+    color: var(--primary-color);
+}
+#footer__titre{
+    font-family: 'mermaid swash caps';
+    font-size: 32px;
+    margin-left: 270px;
+    margin-right: 270px;
+
+}
+#footer__mentions{
+    margin-left:-50px;
+}
+
+#footer__mentions:hover{
+    background-color: white;
+    color: var(--primary-color);
+}

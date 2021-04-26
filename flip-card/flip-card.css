@@ -1,12 +1,20 @@
-
-
-.h4 {
-    font-family: 'Merriweather';
+.card__header--front--h2 {
+    font-family: 'rubik';
     color:black;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    font-size: 18px;
 }
+
+.card__face--quote{
+    font-size: 24px;
+    font-family: 'rubik';
+    padding: 30px 20px 20px 20px;
+    margin: auto;
+}
+
+
 :root{
  --primary-color: #2D394E;
  --secondary-color: #7B8AA3;
@@ -67,7 +75,7 @@
     padding-left: 10px;
 }
 
-.container-light{
+.card__face--container-light{
     background-color: var(--light);
     width: 250px;
     height: 200px;
@@ -75,10 +83,10 @@
     position: relative;
     margin: 100px 30px 30px; 
     box-shadow:var(--dark) 10px 10px 10px; 
-    border-radius: 10px;   
+    border-radius: 10px; 
 }
 
-.container-white{
+.card__header--container-white{
     width: 300px;
     height: 500px;
     background-image: url(../assets/background.jpg);
@@ -103,22 +111,22 @@
 
 
 
-.card__face--back h2{
+.card__face--back--header--h2{
     color: #fff;
     font-size: 32px; 
 }
 
-.img{
+.card__body--back--image{
     display: block;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     position: relative;
     margin:auto;
 }
 
 
 
-button{
+.card__footer--button{
     height: 75px;
     width: 200px;
     margin-top: 50px;
@@ -126,13 +134,12 @@ button{
     font-size: 24px;
     background-color: var(--light);
     border-radius: 10px;
-    align-content: center;
-    margin-top: 50px;
-    margin-left: 100px; 
+    margin-top: 25px;
+    margin-left: 225px;
     box-shadow:var(-) 5px 5px 5px; 
 }
 
-button:hover{
+.card__footer--button:hover{
     background-color: var(--primary-color);
     color: white;
 }
