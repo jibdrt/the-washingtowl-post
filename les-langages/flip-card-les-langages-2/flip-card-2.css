@@ -25,7 +25,7 @@
     margin:0;
     padding:0;
     border-radius: 15px;
-    background-image: url(../assets/background.jpg);
+    background-image: url(../images-cyber/background.jpg);
     margin: 50px auto 0;
     width: 300px;
     height: 400px;
@@ -78,7 +78,7 @@
 .card__face--2--container-white{
     width: 300px;
     height: 300px;
-    background-image: url(../assets/background.jpg);
+    background-image: url(../images-cyber/background.jpg);
     border-radius: 16px;
     margin: auto; 
     margin-top: 50px;

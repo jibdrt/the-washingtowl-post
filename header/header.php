@@ -28,9 +28,9 @@
         </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-          <a class="nav-link" href="#">La Cybersécurité</a>
-          <a class="nav-link" href="#">Métiers du Web</a>
-          <a class="nav-link" href="#">Les Langages</a>
+          <a class="nav-link" href="../cybersecurite/cybersecurite.php">La Cybersécurité</a>
+          <a class="nav-link" href="../les-langages/les-langages.php">Les Langages</a>
+          <a class="nav-link" href="#">A propos </a>
 
             </div>
           </div>
