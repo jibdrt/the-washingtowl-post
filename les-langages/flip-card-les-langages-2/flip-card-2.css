@@ -1,0 +1,133 @@
+:root{
+    --primary-color: #2D394E;
+    --secondary-color: #7B8AA3;
+    --dark: #27282A;
+    --light:#AED9E0; 
+   }
+
+.card__header--front-2--h2 {
+    font-family: 'rubik';
+    color:black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+.card__face--2--quote{
+    font-size: 22px;
+    font-family: 'rubik';
+    padding: 5px 5px 5px 5px;
+   
+}
+
+.card-2{
+    margin:0;
+    padding:0;
+    border-radius: 15px;
+    background-image: url(../images-cyber/background.jpg);
+    margin: 50px auto 0;
+    width: 300px;
+    height: 400px;
+}
+
+.body-2{
+    font-family:'Merriweather';
+    width: 100%;
+    min-height:100vh;
+}
+
+.card__inner-2{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor:pointer;
+    position: relative;
+}
+
+.card__inner.is-flipped-2{
+    transform: rotateY(180deg);
+}
+
+.card__face-2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow:hidden;
+    border-radius: 16px;
+    box-shadow: 0px 3px 18px 3px rgba(0,0,0,0.2);
+    background-image: linear-gradient( to bottom right, var(--primary-color), var(--dark)); 
+}
+
+
+
+.card__face--2--container-light{
+    background-color: var(--light);
+    width: 250px;
+    height: 150px;
+    font-size: 26px;
+    position: relative;
+    margin: 20px 30px 30px; 
+    padding: 10px 10px 10px 10px;
+    box-shadow:var(--dark) 10px 10px 10px; 
+    border-radius: 10px;   
+}
+
+.card__face--2--container-white{
+    width: 300px;
+    height: 300px;
+    background-image: url(../images-cyber/background.jpg);
+    border-radius: 16px;
+    margin: auto; 
+    margin-top: 50px;
+}
+
+.card__face--back-2{
+    background-color: var(--light);
+    transform: rotateY(180deg);
+}
+
+.card__header--back-2{
+    position: relative;
+    padding: 30px 30px 40px;
+}
+
+.card__body--back-2{
+    align-items: bottom;
+}
+
+
+
+.card__face--back-2 h2{
+    color: #fff;
+    font-size: 32px; 
+}
+
+.img-2{
+    display: block;
+    width: 300px;
+    height: 150px;
+    position: relative;
+    margin:auto;
+}
+
+
+
+.card__footer--back--2--button{
+    height: 70px;
+    width: 200px;
+    margin-top: 50px;
+    font-family: 'mermaid';
+    font-size: 24px;
+    background-color: var(--light);
+    border-radius: 10px;
+    margin: 10px 175px;
+    box-shadow:var(-) 5px 5px 5px; 
+}
+
+.card__footer--back--2--button:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
