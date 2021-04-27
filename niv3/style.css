@@ -1,7 +1,17 @@
 
 body{
     zoom: 70%;
+
 }
+
+#bg{
+    background-image: url('marble2.jpg');
+}
+
+#lol{
+    background-color: #222222;
+}
+
 
 #paper_io{
     background-image: url("paper.jpg");
@@ -149,6 +159,7 @@ body{
 
 
 
+
 }
 
 
@@ -156,6 +167,7 @@ body{
     #comput{
         margin: auto;
         margin-top: -80px;
+        display: flex;
 
     }
 }
@@ -214,7 +226,9 @@ width : 600px;
 
 @media screen and (max-width: 805px) {
     #secTitle{
-        font-size: 24px;
+        font-size: 30px;
+        width: 400px;
+        margin: auto;
 
     
     }
@@ -265,13 +279,40 @@ width : 600px;
 
 #digitalpic{
     width: 800px;
-    margin-left: 20px;
+    margin-left: 10px;
 
 
+}
+
+@media screen and (max-width:805px) {
+    #digitalpic{width: 400px;}
 }
 
 #onpic{
     z-index: 2;
-    margin-top: -230px;
+    margin-top: -200px;
     padding-bottom: 200px;
 }
+
+#conclus{
+    font-family: 'Merriweather-bl';
+    font-size: 50px;
+    letter-spacing: 20px;
+
+}
+
+
+#conclus__txt{
+    background-color: #2D394E;
+    color: white;
+    font-family: 'Rubik-r';
+}
+
+@media screen and (max-width:805px) {
+    #conclus__txt{
+        width: 500px;
+    }
+    
+}
+
+

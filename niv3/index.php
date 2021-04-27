@@ -8,8 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <title>pagearticle</title>
 </head>
-<body>
-    <div class="container">
+<body class="bg-dark">
+    <div class="container" id="bg">
+    
             <div class="row">
                 <div class="col-md-2 col-sm-6 p-1 text-white mt-2" id="cybersecu">Cybersécurité</div>
             </div>
@@ -18,7 +19,7 @@
             </div>
             <div class="row">
                 <div class="col-md-10 col-sm-12 mb-4" id="keyWords">CHIFFREMENT | CRYPTOSYSTEME | CRYPTANALYSE | CRYPTOLOGIE</div>
-            </div>
+            
     </div>
     
         <div class="container">
@@ -95,7 +96,7 @@
                 <div class="row m-3 p-3" id="cryptoBG1"><p><b>Pentesteur</b>
                 <br>Le pentesteur cherche des failles de sécurité dans le but de les corrigées. Il s'agit d’adopter le comportement d'un pirate pour déceler les failles avant qu'un vrai hacker ne puisse les exploiter. Le pentester est souvent confronté a la cryptographie, il est la plupart du temps formé à la cryptanalyse. (voir Le Pentesteur ou le Corsaire des Hackers).</p></div>
 
-           <img src="digitalnv3.jpg" id="digitalpic" alt="">
+           <img src="digitalnv3gd.png" id="digitalpic" alt="">
             </div>
 
         
@@ -123,7 +124,7 @@
        </div>
         <div class="container ms-3" id="onpic">
             <div class="row ms-5">
-                <div class="col-md-6 ms-4">
+                <div class="col-md-6 col-sm-12 ms-4">
                     <p  id="cryptoBG" class="p-3 text-white">
                         <b>Développeur cryptographe</b><br>
                         Développeur spécialisé dans le cryptage des données sensibles.
@@ -131,15 +132,30 @@
                 </div>
             </div>
             <div class="row ms-5">
-                <div class="col-md-6 ms-4">
+                <div class="col-md-6 col-sm-12 ms-4">
                     <p id="cryptoBG1" class="p-3">
                         <b>Ingénieur en sécurité</b><br>
                         Il s’agit d’un métier consistant en l’élaboration de la sécurisation d’un réseau.
                     </p>
                 </div>
+            
+        </div>
+        <div class="row ms-5">
+            <div class="col-md-4 col-sm-12 p-3">
+            <H2 class="ms-4 pt-3 pb-3" id="conclus">CONCLUSION</H2>
+            </div>
+            <div class="col-md-8 col-sm-12 ms-3">
+            <p class="p-3 ms-2" id="conclus__txt">La cryptologie regroupe un grand nombre de compétences. Par ailleurs, il existe une grande variété de métiers dans lesquels il peut être nécessaire d'avoir des notions de cryptographie. A partir du moment où un systeme, un réseau ou une entreprise manipule des données dont la lecture sans autorisation peut être convoitée, il est nécessaire qu'une personne compétente dans ce dommaine réfléchisse à la mise en place et à la maintenance des systèmes cryptographiques.</p>
             </div>
         </div>
+        <div class="container-fluid mt-5" id="bg-test">
+
+</div>
+</div>
            
         </div>
+        </div>
+        
+ 
 </body>
 </html>
