@@ -1,0 +1,286 @@
+body{
+    zoom: 80%;
+}
+
+
+#logo{
+    width: 240px;
+    margin-left: 100px;
+}
+
+
+.rowtitle{
+font-family: fantasy;
+}
+
+.rowbloc{
+    color: #706e6e;
+}
+  
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+#section-1{
+    height: 90vh;
+    width: 100%;
+    background-image: url("row1.png");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+}
+
+@font-face{
+    font-family: 'Merriweather';
+    src: url('Merriweather-Black.ttf');
+}
+
+@font-face{
+    font-family: 'Rubik-Medium';
+    src: url('Rubik-Medium.ttf');
+}
+
+@font-face{
+    font-family:'Rubik-Bold';
+    src: url('Rubik-Bold.ttf')
+}
+
+@font-face{
+    font-family:'Merriweather-regul';
+    src: url('Merriweather-Regular.ttf');
+}
+
+
+#title-color-white{
+    color: white;
+    font-family: 'Rubik-Medium';
+    font-size: 16px;
+    margin-left: 100pt;
+    padding-bottom: 0pt;
+}
+
+#text-color-white{
+    color: white;
+    margin-top: 1pt ;
+    margin-left: 100pt;
+    font-family: 'Merriweather';
+    font-size: 30px;
+    line-height: 40px;
+}
+
+#playbuton{
+    width: 70px;
+    vertical-align: middle;
+    
+}
+
+#playbuton:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+}
+
+#text-color-white2{
+    color: white;
+    font-family: 'Rubik-Bold';
+    font-size: 16px;
+    margin-top: 200px;
+    margin-left: 210px;
+    cursor: pointer;
+    
+}
+
+.rowtitle{
+    margin-left: 120pt;
+    font-family:'Merriweather';
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+.rowbloc{
+    margin-left: 120pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#contactbuton{
+    text-decoration: none;
+    border: 1px solid white;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.4);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left:18px;
+    padding-right:18px;
+    border-radius: 4px;
+}
+
+#contactbuton:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color:white;
+}
+
+
+
+#logo{
+    padding-left:15px;
+}
+
+
+
+
+
+.navbar-nav{
+align-items: center;
+font-family: 'Rubik-Bold'
+}
+
+
+.titleplusblocpluslees{
+    padding-top: 50px;
+}
+
+.lees-meer{
+    border-style: solid;
+    border-color:#606B74;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top:8px ;
+    padding-bottom:8px ;
+    font-family:'Rubik-Bold';
+    color:#606B74;
+    
+}
+
+.lees-meer:hover{
+    background-color: #606B74;
+    color:white;
+}
+
+
+
+.social-network-pointer:hover{
+    cursor: pointer;
+    letter-spacing: 5px;
+}
+
+#social-network{
+    writing-mode: vertical-lr;
+    margin-left: 500px;
+    margin-top: 200px;
+    position:absolute;
+    word-spacing: 50px;
+    color: white;
+    font-family: 'Rubik-Bold';
+}
+
+
+
+#duurzame{
+    font-family:'Merriweather';
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#alleecocabins{
+    font-family: 'Rubik-Medium';
+    font-weight: 500;
+    color:#606B74;
+    line-height:35px;
+    font-size: 15px;
+}
+
+
+
+
+.col-md-4{
+    margin-left: 130px;
+    padding-top: 62px;
+}
+
+#poutre{
+    width: 400px;
+    margin-left: 200px;
+    margin-top: -100px;
+    padding-bottom: 130px;
+    position: absolute;
+    background-color:#222F33;
+
+}
+
+#bg-test{
+    background-color: #222F33;
+}
+
+
+@media (max-width : 1000px ){
+    #poutre{display: none;}
+}
+
+#bckgrd{
+    width: fit-content;
+    
+}
+
+
+#innovatie{
+    font-family: 'Merriweather';
+    margin-bottom: -50px;
+}
+
+.textinnovatie{
+    font-family: 'Rubik-Medium';
+    font-weight: 200;
+    color:#646d70;
+}
+
+
+h2{
+    font-family: 'Merriweather';
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Rubik-Medium';
+    color: #646d70;
+}
+
+#cabpaged{
+    
+width: 420px;
+align-content: center;
+box-shadow: 8px 8px 12px #606B74;
+
+}
+
+
+
+#logofooter{
+    width: 180px;
+    margin-left: 100px;
+}
+
+#infocontact{
+    color: #646d70;
+}
+
+#infocontact:hover{
+    color:white;
+    cursor: pointer;
+}
+
+#cookiesplus{
+    color:#646d70;
+}
+
+#cookiesplus:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
