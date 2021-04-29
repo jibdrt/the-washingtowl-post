@@ -11,7 +11,7 @@
 </head>
 <?php include "../header/header.php";?>
 <body>
-<div class="container mention__background">
+<div class="container bg-white">
     <div class="row">
         <div class="col-md-6 col-sm-12">
             <h1 class="mention__titre--header">Mentions Légales</h1>

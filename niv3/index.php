@@ -10,7 +10,7 @@
 </head>
 <body class="bg-dark">
 <?php include "../header/header.php";?>
-    <div class="container" id="bg">
+    <div class="container bg-white">
     
             <div class="row">
                 <div class="col-md-2 col-sm-6 p-1 text-white mt-2" id="cybersecu"><a href="../cybersecurite/cybersecurite.php">Cybersécurité<a></div>

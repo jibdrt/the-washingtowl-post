@@ -15,7 +15,7 @@
 
 <body>
 <?php include "../header/header.php";?>
-        <div class="container card__background ">
+        <div class="container bg-white ">
             <div class="row">
                 <div class="col-sm-12 col-md-12"><h1 class="about__titre">A Propos</h2><br><p id="about__par">Dans le cadre de notre 1er projet de formation, nous devions concevoir et développer un outil de communication numérique à caractère informatif, de type site web, présentant les métiers du numérique.</p></div>
             </div>

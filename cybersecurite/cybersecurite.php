@@ -14,7 +14,7 @@
 
 <body>
    
-    <div class="container m-auto body__background">
+    <div class="container m-auto bg-white">
      
 
     <div class="row ">
