@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <title>pagearticle</title>
 </head>
+<?php include "../header/header.php";?>
 <body class="bg-dark">
     <div class="container" id="bg">
     
@@ -75,7 +76,7 @@
             
             <div class="col-md-3 col-sm-12 ms-4">
                 <div class="row m-3">
-                    <div class="col-md-12 text-white p-3" id="cryptoBG">
+                    <div class="col-md-12 col-sm-12 text-white p-3" id="cryptoBG">
                         <p>
                              <b>Cryptologue</b><br>
                             Cryptologue n’est pas un métier commun. Il s’agit davantage d’une personne à l’esprit mathématique qui invente de nouvelles méthodes de cryptages ou recherche d’éventuelles nouvelles failles.
@@ -112,8 +113,8 @@
                     Il s’agit généralement d’une personne extérieure à la structure pour laquelle elle travaille. Donne conseils et recommandations en matière de sécurité et oeuvre à la mise en place de ces derniers.
                 </p>
             </div>
-            <div class="row m-3 p-3" id="cryptoBG1">
-                    <p>
+            <div class="row m-3 p-3">
+                    <p  id="cryptoBGfix">
                         <b>Technicien réseau</b><br>
                         Le technicien réseau peut être amené à gérer la sécurité des serveurs et les données échangées, il peut donc aussi lui être demandé d'avoir des compétences en cryptologie.
                     </p>
@@ -133,7 +134,7 @@
             </div>
             <div class="row ms-5">
                 <div class="col-md-6 col-sm-12 ms-4">
-                    <p id="cryptoBG1" class="p-3">
+                    <p id="cryptoBG1" class="p-3 fixx">
                         <b>Ingénieur en sécurité</b><br>
                         Il s’agit d’un métier consistant en l’élaboration de la sécurisation d’un réseau.
                     </p>
@@ -158,4 +159,5 @@
         
  
 </body>
+<?php include "../footer/footer.php";?>
 </html>

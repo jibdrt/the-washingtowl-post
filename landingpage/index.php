@@ -8,9 +8,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="ecocabsquare.png" type="image/png">
-    <title>Ecocabins</title>
+    <title>Page d'accueil</title>
 </head>
-<body>
+<?php include "../header/header.php";?>
+
+<body class="bg-white">
 
 
 <div class="container">
@@ -22,9 +24,16 @@
 
 <div class="row justify-content-end">
               <div id="social-network" class="col-sm-1">
-                <span class="social-network-pointer">Instagram</span> 
-                <span class="social-network-pointer">Facebook</span>
-                <span class="social-network-pointer">Linkedin</span>   
+                <a href="https://github.com/jibdrt"
+                target="_blank">
+                <span class="social-network-pointer text-white">Github</span></a>
+                
+                <a href="https://www.linkedin.com/in/jean-baptiste-druet-838593144" target="_blank">
+                <span class="social-network-pointer text-white">Linkedin</span></a>
+                <a href="https://github.com/WilliamsChazal" target="_blank">
+                <span class="social-network-pointer text-white">Github</span></a>
+                <a href="https://www.linkedin.com/in/williams-chazal-0a05a313a/" target="_blank">
+                <span class="social-network-pointer text-white">Linkedin</span></a>
               </div>
         </div>
 
@@ -32,55 +41,23 @@
 
 
 
-   <!-- début de la nav -->
-   <nav class="navbar navbar-expand-lg navbar-dark container-fluid pb-5 pt-4">
   
-    <a class="navbar-brand" href="#">
-        <img src="EcoCabins-white.png" id="logo" alt="le logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <span class="me-auto"></span> <!-- pour le positionnement à droite des liens -->
-      <span class="navbar-text">
-      <ul class="navbar-nav mb-2 mb-lg-0">
-        <li class="nav-item me-5">
-          <a class="nav-link active" aria-current="page" href="#">Modellen</a>
-        </li>
-        <li class="nav-item me-5">
-          <a class="nav-link" href="#">Kopen</a>
-        </li>
-        <li class="nav-item me-5">
-          <a class="nav-link" href="#">Huren</a>
-        </li>
-        <li class="nav-item me-5">
-          <a class="nav-link" href="#">Nieuws</a>
-        </li>
-        <li class="nav-item me-5">
-          <a class="nav-contact" id="contactbuton" href="#">Contact</a>
-        </li>
-      </ul>
-      </span>
-    </div>
-  
-</nav>
 <!-- fin de la nav -->
 
   <div class="row mt-5">
     <div class="col-sm mt-5">
     <div class="mt-5 pt-5">
       <p id="title-color-white">
-          Duurzame tiny huisjes
+          Le métier de développeur web
         </p>
           <p id="text-color-white">
-              <strong>Een ecologisch tiny huisje is<br> zoveel mogelijk opgebouwd<br> uit duurzame natuurlijke<br> materialen</strong>
+              <strong>Les métiers du développement web sont en pleine expansion ...</strong>
             </p>
     </div>
     </div>
     <div class="col-sm">
       <div class="bdf">
-    <p id="text-color-white2"><img src="btnplay.png" id="playbuton">Bekjik de film</p>
+    <p id="text-color-white2"><button id="playbuton">Lire l'article</button></p>
 </div>
       
     </div>
@@ -89,14 +66,15 @@
 </div>
 <div class="row">
       <div class="col-sm-12 col-md-4">
-        <h2 id="duurzame">Duurzame materialen</h2>
-        <p id="alleecocabins">
-          Alle EcoCabins hebben een hoge isolatiewaarde, worden<br> geproduceerd met indien mogelijk duurzame en/of<br> natuurlijke materialen en hebben als opvallende uiterlijke<br> kenmerk de ‘ronde hoeken', mogelijk gemaakt door het <br>specifieke materiaalgebruik. De voordelen van bouwen met hout zijn legio: hout is licht, flexibel, isoleert goed en bouwt snel en efficient.</p>
-          <button class="lees-meer" type="button">
-          Lees meer
-          </button>
+        <h2 id="cybersecumetier">La cybersécurité au sein des métiers du numérique</h2>
+        <p id="cybersecu__txt">
+        La cybersécurité assure une gestion de la data dans des conditions optimales et sécurisées. Elle permet la protection des systèmes d’informations et des données qui circulent contre ceux que l’on appelle les cybercriminels.
+</p>
+          <a href="../cybersecurite/cybersecurite.php"><button class="lees-meer" type="button">
+          Lire l'article
+          </button></a>
 </div>
-      <div class="col-md-6"><img src="Poutres.png" id="poutre"></div>
+      <div class="col-md-6"><img src="pic2.jpg" id="poutre"></div>
 </div>
 
 
@@ -111,12 +89,10 @@
 
 </div>
 
-<div class="container" id="bg-test">
+<div class="container col-sm-12" id="bg-test">
 <div class="row row-sm-12 pt-5 mt-5 mr-ml-5">
     <div class="col-sm-12 col-md-4 text-white pb-5 pt-2">
-    <div class="row pb-5" id="innovatie">
-      <h1>Innovatie</h1></div>
-      <div class="textinnovatie pb-5">Wij hebben als doel om de EcoCabins voortdurend verder te ontwikkelen en innoveren, zodat de EcoCabins uiteindelijk 100% duurzaam en circulair zijn. Voorwaarde hierbij is dat de EcoCabins betaalbaar blijven. Met behulp van de zon, de wind en de beste isolatie geniet u van.</div>
+        
     </div>
 
 
@@ -124,8 +100,15 @@
 
 
     <div class="col-sm-12 col-md-4 text-white">
-      <div class="textinnovatie pt-1">Alle EcoCabins hebben een hoge isolatiewaarde, worden geproduceerd met indien mogelijk duurzame en/of natuurlijke materialen en hebben als opvallende uiterlijke kenmerk de ‘ronde hoeken’, mogelijk gemaakt door het specifieke materiaalgebruik De voordelen van bouwen.</div>
+      
+      <div class="row pb-1 mt-5" id="webdesigner">
+      <h1>Web designer , qu'est ce que c'est ?</h1></div>
+      <div class="webdesigner__txt pb-5"><p>"Dans les entreprises plus spécialisées, le webdesigner travaillera en équipe, en collaboration étroite avec un chef de projet et/ou des responsables artistiques et éditoriaux qui guideront et valideront son travail au fur et à mesure de l’avancement du projet ..."<p>
+      <button id="webdesigner__btn">Lire l'article</button>
+      </div>
+
     </div>
+
   </div>
 
 
@@ -144,38 +127,13 @@
 
 <div class="container pt-5 mt-5">
   <div class="row pt-4 ps-3 pb-5 mb-5">
-    <div class="col-sm-12 col-md-6 ps-5">
-      <div class="ps-5 ms-4"><img src="cabpage.png" id="cabpaged" ></div>
+    <div class="col-sm-12 col-md-5 ps-5">
+      <div class="ps-5 ms-4"><img src="jbD.png" id="cabpaged" ><H2 id="cabpaged__pic" class="ms-5">Jean-Baptiste Druet</H2></div>
     </div>
-    <div class="col-sm-12 col-md-6">
-      <div class="row pt-4">
-      <div class="col-sm-12 col-md-5">
-        <h2>Hout</h2>
-        <p>De draagconstructies van EcoCabins bestaan uit hout. Hout is duurzaam en.</p>
-      </div>
-      <div class="col-sm-12 col-md-5">
-        <h2>Glaswol isolatie</h2>
-        <p>De combinatie van glaswol met een houtskelet constructie geeft een.</p>
-      </div>
-      <div class="col-sm-12 col-md-5">
-        <h2>Afwerking</h2>
-        <p>De draagconstructies van EcoCabins bestaan uit hout. Hout is duurzaam en.</p>
-      </div>
-      <div class="col-sm-12 col-md-5">
-      <h2>Triple gas</h2>
-      <p>De combinatie van glaswol met een houtskelet constructie geeft een.</p>
-      </div>
-      <div class="col-sm-12 col-md-5">
-       <h2> Stalen onderstel</h2>
-       <p>Het stalen onderstel is sterk zijn en heeft de benodigde stijfheid die.</p>
-      </div>
-      <div class="col-sm-12 col-md-5">
-        <h2>Infrarood vloer</h2>
-        <p>De vloer wordt opgewarmd middels opgewekte warmte uit eigen zonne-energie.</p>
-      </div>
-        </div>
-      </div>
-              
+    <div class="col-md-1 col-sm-12"><h3 id="cabpaged__title">Fondateurs</h3></div>
+    <div class="col-sm-12 col-md-5">
+      
+    <div class="ps-5 ms-4"><img src="williamsC.png" id="cabpaged" ><H2 id="cabpaged__pic" class="ms-5 ps-5">Williams Chazal</H2></div>
 
 
 
@@ -188,21 +146,7 @@
   </div>
 </div>
 
-<!-- row de fin de page -->
-<div class="container" id="bg-test">
-<div class="row text-white pb-3 pt-3">
-    <div class="col-sm-12 col-md-3 pt-3" id="infocontact">
-    info@eco-cabins.com
-    </div>
-    <div class="col-sm-12 col-md-4 pt-3 ps-3">
-    <img src="EcoCabins-white.png" id="logofooter">
-    </div>
-    <div class="col-sm-12 col-md-3 text-end ms-5 pt-3" id="cookiesplus">
-    Cookies Privacybeleid
-    </div>
-  </div>
-</div>
-</div>
-<!-- row de fin de page -->
 
+
+<?php include "../footer/footer.php";?>
 </body>

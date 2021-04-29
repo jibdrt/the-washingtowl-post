@@ -1,3 +1,9 @@
+
+a:link{
+    text-decoration: none;
+}
+
+
 body{
     zoom: 80%;
 }
@@ -25,11 +31,8 @@ font-family: fantasy;
 #section-1{
     height: 90vh;
     width: 100%;
-    background-image: url("row1.png");
+    background-image: url("geometric.jpg");
     background-size: cover;
-    position: relative;
-    overflow: hidden;
-
 }
 
 @font-face{
@@ -71,14 +74,21 @@ font-family: fantasy;
 }
 
 #playbuton{
-    width: 70px;
+
     vertical-align: middle;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Merriweather';
+    box-shadow: #222F33 8px 8px;
     
 }
 
 #playbuton:hover{
-        transform: scale(1.2);
+        transform: scale(1.1);
         cursor: pointer;
+        box-shadow: #222F33 4px 4px;
+
 }
 
 #text-color-white2{
@@ -172,28 +182,58 @@ font-family: 'Rubik-Bold'
 #social-network{
     writing-mode: vertical-lr;
     margin-left: 500px;
-    margin-top: 200px;
+    margin-top: 100px;
     position:absolute;
-    word-spacing: 50px;
+    word-spacing: 30px;
     color: white;
     font-family: 'Rubik-Bold';
 }
 
 
 
-#duurzame{
+#cybersecumetier{
     font-family:'Merriweather';
     font-weight: bolder;
     font-size: 30px;
+    margin-top: 20px;
+
 }
 
-#alleecocabins{
+#cybersecumetier__txt{
     font-family: 'Rubik-Medium';
     font-weight: 500;
     color:#606B74;
-    line-height:35px;
+    line-height: 30px;
     font-size: 15px;
 }
+
+
+@media screen and (max-width:805px){
+    #cybersecumetier{
+zoom: 60%;
+text-align: start;
+margin-left: -200px;
+
+    }
+}
+
+@media screen and (max-width:805px) {
+    #cybersecu__txt{
+        font-size: 15px;
+margin-left: -120px;
+text-align: start;
+width: 500px;
+
+    
+    }
+}
+
+
+
+
+
+
+
 
 
 
@@ -205,11 +245,13 @@ font-family: 'Rubik-Bold'
 
 #poutre{
     width: 400px;
+    height: 500px;
     margin-left: 200px;
     margin-top: -100px;
-    padding-bottom: 130px;
     position: absolute;
+
     background-color:#222F33;
+    border: 1px #222222 solid;
 
 }
 
@@ -228,16 +270,45 @@ font-family: 'Rubik-Bold'
 }
 
 
-#innovatie{
+#webdesigner{
     font-family: 'Merriweather';
-    margin-bottom: -50px;
+
+    
 }
 
-.textinnovatie{
+.webdesigner__txt{
     font-family: 'Rubik-Medium';
     font-weight: 200;
-    color:#646d70;
+    color:white;
+    margin-bottom: 20px;
+    
+
 }
+
+@media screen and (max-width:805px) {
+    #webdesigner{ 
+        text-align: start;
+        width: 500px;
+        margin-left: -60px;
+    }
+}
+
+@media screen and (max-width:805px) {
+    .webdesigner__txt{ 
+        text-align: start;
+        width: 500px;
+        margin-left: -60px;
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 h2{
@@ -254,9 +325,24 @@ p{
     
 width: 420px;
 align-content: center;
-box-shadow: 8px 8px 12px #606B74;
 
 }
+
+#cabpaged__title{
+    font-family: 'Rubik-Bold';
+}
+
+
+#cabpaged__pic{
+    font-family: 'Rubik-Bold';
+}
+
+@media screen and (max-width:805px) {
+    #cabpaged__title{
+        display: none;
+    }
+}
+
 
 
 
@@ -284,3 +370,21 @@ box-shadow: 8px 8px 12px #606B74;
 }
 
 
+#webdesigner__btn{
+    margin-top: 30px;
+    border-style: solid;
+    border-color:#ffffff;
+    background-color: #222F33;
+    border-radius: 5px;
+    font-family:'Rubik-Bold';
+    color:#ffffff;
+    padding-top:8px ;
+    padding-bottom:8px ;
+}
+
+
+#webdesigner__btn:hover{
+    border-color:#ffffff;
+    background-color: #ffffff;
+    color:#222F33;
+}

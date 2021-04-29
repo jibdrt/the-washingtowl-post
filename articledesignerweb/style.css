@@ -1,6 +1,6 @@
 
 body{
-    zoom: 70%;
+    zoom: 80%;
 
 }
 
@@ -95,7 +95,7 @@ body{
 #glossaireContent{
     background-color: #AED9E0;
     font-family: 'Merriweather-r';
-    font-size: 20px;
+    font-size: 15px;
     padding: 20px;
     background-image: url("paper.jpg");
 
@@ -143,11 +143,10 @@ body{
 }
 
 #cryptoNumeriEnd{
-    background-image:url("colorspot.png");
-    background-position: right;
-    background-size: 700px;
+
     font-family: 'Rubik-r';
     height: 250px;
+    margin-right: 35px;
     font-size: 18px;
     
    
@@ -241,14 +240,14 @@ width : 600px;
 #cryptoBG{
     background-color: #2D394E;
     box-shadow: 8px 8px  #27282A;
-    font-size: 18px
+    font-size: 18px;
 }
 
 #cryptoBG1{
     background-color: #AED9E0;
     box-shadow: 8px 8px  #27282A;
+    font-size: 18px;
     z-index: 2;
-    font-size: 18px
 
 
 }
