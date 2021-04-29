@@ -13,7 +13,7 @@
   <div class="container">
           <div class="row footer__background-color footer_font-color">
                   <div class="col-sm-12 col-md-2 footer__haut-page">
-                      <a href =../cybersecurite/cybersecurite.php#> Haut de la page </a></div>
+                      <a href =#> Haut de la page </a></div>
                   <div class="col-sm-12 col-md-6 footer__titre me-5"><img src="../footer/GOODV.svg">The   Washingt' Owl  Post</div>
                   <div class="col-sm-12 col-md-2 footer__mentions "><a href=../mention-legales/mention-legales.php>  Mentions légales</a></div>        
            </div>

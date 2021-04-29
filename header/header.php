@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<div class="container">
+
     <div class="row ">
         <div class="col-sm-12 col-md-12 ps-3 bckg-color m-auto">
             <img src="../header/GOODV.svg" alt="" class="logo">
@@ -28,16 +28,16 @@
         </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
+          <a class="nav-link" href="../les-metiers/index.php">Les métiers du Web</a>
           <a class="nav-link" href="../cybersecurite/cybersecurite.php">La Cybersécurité</a>
-          <a class="nav-link" href="../les-langages/les-langages.php">Les Langages</a>
-          <a class="nav-link" href="#">A propos </a>
+          <a class="nav-link" href="../about-us/about-us.php">A propos </a>
 
             </div>
           </div>
    </div>
     </nav>
   </div>
-</div>
+
   
 <!-- Fin Navbar -->
 </body>

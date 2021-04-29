@@ -4,6 +4,12 @@
     --dark: #27282A;
     --light:#AED9E0; 
 }
+*{
+    border: red 1px solid;
+}
+a:link{
+    text-decoration: none;
+}
 
 .footer__background-color{
     background-color: var(--primary-color);

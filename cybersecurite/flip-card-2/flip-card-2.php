@@ -18,7 +18,7 @@
                <div class="card__content-2">
                    <div class="card__header--back-2"><h2> Pentesteur, le Corsaire des Hackers </h2></div>
                    <div class="card__body--back-2"><img src="images-cyber/computer.svg" alt="" class="img-2"></div>
-                   <div class="card__footer--back"><a href="index.php"><button class="card__footer--back--2--button">Lire l'article</button></a></div>
+                   <div class="card__footer--back"><a href="../article-pentesteur/index.php"><button class="card__footer--back--2--button">Lire l'article</button></a></div>
                </div> 
             </div>   
     </div>
