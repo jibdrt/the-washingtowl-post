@@ -10,13 +10,12 @@
     <link rel="shortcut icon" href="ecocabsquare.png" type="image/png">
     <title>Page d'accueil</title>
 </head>
+
+
+<body class="bg-dark">
+<div class="container bg-white">
+
 <?php include "../header/header.php";?>
-
-<body class="bg-white">
-
-
-<div class="container">
-
 
 
 <div id="section-1">
@@ -48,7 +47,7 @@
     <div class="col-sm mt-5">
     <div class="mt-5 pt-5">
       <p id="title-color-white">
-          Le métier de développeur web
+          Les métier du web
         </p>
           <p id="text-color-white">
               <strong>Les métiers du développement web sont en pleine expansion ...</strong>
@@ -57,7 +56,7 @@
     </div>
     <div class="col-sm">
       <div class="bdf">
-    <p id="text-color-white2"><button id="playbuton">Lire l'article</button></p>
+    <p id="text-color-white2"><a href="../les-metiers/index.php"><button id="playbuton">Lire l'article</button></a></p>
 </div>
       
     </div>
@@ -78,18 +77,16 @@
 </div>
 
 
-</div>
-</div>
-</div>
+
 <div class="container">
       <div class="row">
-          <div class="col-sm-12 col-md-12 .bg-dark"></div>
+          <div class="col-sm-12 col-md-12"></div>
 </div>
 
 
 </div>
 
-<div class="container col-sm-12" id="bg-test">
+<div class="container" id="bg-test">
 <div class="row row-sm-12 pt-5 mt-5 mr-ml-5">
     <div class="col-sm-12 col-md-4 text-white pb-5 pt-2">
         
@@ -103,34 +100,29 @@
       
       <div class="row pb-1 mt-5" id="webdesigner">
       <h1>Web designer , qu'est ce que c'est ?</h1></div>
-      <div class="webdesigner__txt pb-5"><p>"Dans les entreprises plus spécialisées, le webdesigner travaillera en équipe, en collaboration étroite avec un chef de projet et/ou des responsables artistiques et éditoriaux qui guideront et valideront son travail au fur et à mesure de l’avancement du projet ..."<p>
-      <button id="webdesigner__btn">Lire l'article</button>
+      <div class="webdesigner__txt pb-5"><p>"Dans les entreprises plus spécialisées, le webdesigner travaillera en équipe, en collaboration étroite avec un chef de projet et/ou des responsables artistiques et éditoriaux qui guideront et valideront son travail au fur et à mesure de l’avancement du projet ..."<p><a href="../articledesignerweb/index.php">
+      <button id="webdesigner__btn">Lire l'article</button></a>
       </div>
 
     </div>
 
   </div>
 
-
+  </div>
 
    
     
 
-  </div>
-  
+ 
 
 
-
-  </div>
-
-
-
-<div class="container pt-5 mt-5">
+ 
+<div class="container pt-5 mt-5 bg-white">
   <div class="row pt-4 ps-3 pb-5 mb-5">
     <div class="col-sm-12 col-md-5 ps-5">
       <div class="ps-5 ms-4"><img src="jbD.png" id="cabpaged" ><H2 id="cabpaged__pic" class="ms-5">Jean-Baptiste Druet</H2></div>
     </div>
-    <div class="col-md-1 col-sm-12"><h3 id="cabpaged__title">Fondateurs</h3></div>
+    <div class="col-md-1 col-sm-12"><h3 id="cabpaged__title"><a href="../about-us/about-us.php">Fondateurs</h3></a></div>
     <div class="col-sm-12 col-md-5">
       
     <div class="ps-5 ms-4"><img src="williamsC.png" id="cabpaged" ><H2 id="cabpaged__pic" class="ms-5 ps-5">Williams Chazal</H2></div>
@@ -143,10 +135,11 @@
 
 
 
-  </div>
+ 
+
 </div>
 
 
 
-<?php include "../footer/footer.php";?>
 </body>
+<?php include "../footer/footer.php";?>

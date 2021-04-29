@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A propos</title>
 </head>
-<body>
+
     
 
 
 
 <link rel="stylesheet" href="about-us.css">
-<?php include "../header/header.php";?>
+
 <body>
+<?php include "../header/header.php";?>
         <div class="container card__background ">
             <div class="row">
                 <div class="col-sm-12 col-md-12"><h1 class="about__titre">A Propos</h2><br><p id="about__par">Dans le cadre de notre 1er projet de formation, nous devions concevoir et développer un outil de communication numérique à caractère informatif, de type site web, présentant les métiers du numérique.</p></div>

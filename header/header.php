@@ -11,10 +11,11 @@
 </head>
 <body>
 
+<div class="container">
 
     <div class="row ">
         <div class="col-sm-12 col-md-12 ps-3 bckg-color m-auto">
-            <img src="../header/GOODV.svg" alt="" class="logo">
+           <a href="../index.php"> <img src="../header/GOODV.svg" alt="" class="logo"></a>
         <h1 id="h1">  The Washingt' Owl  Post</h1>
         </div>  
     </div>
@@ -22,7 +23,7 @@
         <!-- Début Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light ">
         <div class="container-fluid navbar ">
-        <a class="navbar-brand" href="#">Accueil</a>
+        <a class="navbar-brand" href="../index.php">Accueil</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,7 +38,7 @@
    </div>
     </nav>
   </div>
-
+  </div>
   
 <!-- Fin Navbar -->
 </body>
