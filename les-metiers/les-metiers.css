@@ -15,9 +15,9 @@
 }
 
 
-.titre__h1{
+.titre__h1--metier{
     font-family: 'Merriweather';
-    font-size: 56px;
+    font-size: 52px;
     background-color:var(--light);
     padding-left: 10px;
     border: white 5px solid;
@@ -34,33 +34,22 @@
 
 
 .image__top--size{
-    height: 480px;
-    margin-right: auto;
-    border: solid 10px white
+    height: 380px;
+    border: solid 10px white;
 
 }
-@media screen and (min-width: 680px){ 
-    .image__top--size{
-    position: absolute;
-    margin-top: -56px;
-    } 
-}
+
 .flip-card__opacity{
     opacity: 90%;
 }
 
-#image__top--position{
-    display: flex;
-    justify-content: flex-end;
-}
 
-
-.image__bottom--size{
+.image__bottom--size-webdev-work{
     width: 100%;
-    margin-left: 20px;
-    display: flex;
+    margin-left: 10px;
+    margin-right: 20px;
     border: solid 10px white;
-    opacity: 80%;
+    opacity: 90%;
 }
 
 

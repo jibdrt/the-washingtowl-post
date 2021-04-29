@@ -1,0 +1,51 @@
+
+
+:root{
+    --primary-color: #2D394E;
+    --secondary-color: #7B8AA3;
+    --dark: #27282A;
+    --light:#AED9E0; 
+}
+
+
+.mention__background{
+    background-image: url(../assets/background.jpg);
+}
+
+.mention__titre--header{
+    color:black;
+    font-family: 'merriweather';
+    background-color: var(--light);
+    margin-right: 50px;
+    border-radius: 10px; 
+    margin-top: 20px;
+    border: white solid 5px;
+    padding:10px 10px 10px 10px ;
+}
+.mention__titre{
+    color:white;
+    font-family: 'merriweather';
+    background-color: var(--primary-color);
+    margin-right: 50px;
+    border-radius: 10px; 
+    margin-top: 20px;
+    border: white solid 5px;
+    padding:10px 10px 10px 10px ;
+}
+
+
+.mention__paragraphe{
+    font-size: 20px;
+    padding:20px 30px 30px 30px; 
+    background-color: var(--light);
+    border: solid 3px white;  
+}
+
+
+.mention__paragraphe--credit{
+    font-size: 20px;
+    padding:20px 30px 30px 30px; 
+    background-color: var(--primary-color);
+    color: white;
+    border: solid 3px white;  
+}

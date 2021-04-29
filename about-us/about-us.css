@@ -1,7 +1,74 @@
-*{
-    border: red solid 1px;
+
+
+.card__background{
+    background-image: url(../assets/background.jpg);
 }
- .logo{
-       width: 20px;
-       height:20px;
+
+.fond-bleu{
+    background-color: var(--primary-color);
+    border: var(--light) solid 3px;
+}
+
+:root{
+    --primary-color: #2D394E;
+    --secondary-color: #7B8AA3;
+    --dark: #27282A;
+    --light:#AED9E0; 
+}
+
+ .logo__about-us{
+       width: 50px;
+       height:50px;
    }
+.card-link{
+    margin-left: 5px;
+}
+.card-link:hover{
+    color: black;
+    background-color: var(--light);
+}
+
+.about__titre{
+    color:black;
+    font-family: 'merriweather';
+    background-color: var(--light);
+    margin-right: 50px;
+    border-radius: 10px; 
+    margin-left: 50px;
+    margin-top: 50px;
+    border: white solid 5px;
+    padding:10px 0px 20px 10px ;
+    height: 100px;
+    width: 210px;
+    
+}
+
+#about__par{
+    color: black;
+    font-family: 'rubik';
+    background-color: var(--light);
+    border: white 5px solid;
+    padding: 10px 10px 10px 10px;
+}
+
+.card__image--size{
+    width: 300px;
+    height: 300px;
+    margin-left: 40px;
+}
+
+.card-title{
+    font-size: 22px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.card-subtitle{
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+.card-text{
+    font-size: 18px;
+   padding: 10px 10px 10px 10px;
+}

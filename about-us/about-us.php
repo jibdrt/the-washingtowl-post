@@ -1,41 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A propos</title>
+</head>
+<body>
+    
+
+
+
 <link rel="stylesheet" href="about-us.css">
 <?php include "../header/header.php";?>
 <body>
-        <div class="container">
+        <div class="container card__background ">
             <div class="row">
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-12"><h1 class="about__titre">A Propos</h2><br><p id="about__par">Dans le cadre de notre 1er projet de formation, nous devions concevoir et développer un outil de communication numérique à caractère informatif, de type site web, présentant les métiers du numérique.</p></div>
+            </div>
+            <div class="row about__titre ms-5"><h2>L'équipe</h2></div>
+            <div class="row mt-3 mb-5">
+                <div class="col-sm-12 col-md-6 ">
 
-<div class="card" style="width: 100%;">
-  <div class="card-body">
-     
-    <h5 class="card-title">Jean-Baptiste Druet</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link">Card link</a>
-    <a href="#" class="card-link">Another link</a>
-  </div>
-</div>
+                <div class="card m-auto" style="width: 26rem; color: white">
+                <div class="card-body fond-bleu">
+                <img src="jbD.png" alt="" class="card__image--size">
+                <h5 class="card-title">Jean-Baptiste Druet</h5>
+                <h6 class="card-subtitle mb-2">Web-Designer en formation à L'ACS de Dijon</h6>
+                <p class="card-text">A 25 ans, après un master Anglophone en Marketing et Commerce à la Burgundy School of Business, j'ai décidé d'élargir mon panel de connaissances en suivant une formation de WebDesigner.</p><img src="github.png" alt="" class="logo__about-us">
+                <a href="https://github.com/jibdrt" target="_blank"class="card-link">jibdrt</a><img src="linkedin.png" alt="" class="logo__about-us 
+        ">
+                <a href="https://www.linkedin.com/in/jean-baptiste-druet-838593144/" target="_blank" class="card-link me-5 ms-3">Jean-Baptiste Druet
+</a>
+            </div>
+            </div>
 
                 </div>
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-12 col-md-6 ">
 
 
-                <div class="card" style="width: 100%;">
-  <div class="card-body">
-  <img src="williamsC.png" alt="">
+                <div class="card m-auto mb-5" style="width: 26rem; color: white">
+  <div class="card-body fond-bleu">
+  <img src="williamsC.png" alt="" class="card__image--size">
     <h5 class="card-title">Williams Chazal</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="card-link "><img src="github.png" alt="" class="logo
-"> WilliamsChazal</a>
-    <a href="#" class="card-link "><img src="linkedin.png" alt="" class="logo
-"> Williams Chazal</a>
-  </div>
+    <h6 class="card-subtitle  mb-2">Web-Designer en formation à L'ACS de Dijon</h6>
+    <p class="card-text ">A 28ans j'ai décidé de me lancer d'une reconversion professionelle. Après de nombreuses années dans le prêt à porter j'ai décider de m'orienter vers le WebDesign et le  develloppement web.</p><img src="github.png" alt="" class="logo__about-us">
+
+    <a href="https://github.com/WilliamsChazal" target="_blank" class="card-link"> WilliamsChazal</a>
+        <img src="linkedin.png" alt="" class="logo__about-us
+        "><a href="https://www.linkedin.com/in/williams-chazal-0a05a313a/" target="_blank" class="card-link "> Williams Chazal</a>
+        </div>
 </div>
                 </div>
             </div>
         </div>
 
+        <?php include "../footer/footer.php";?>
 </body>
-</body>
-<?php include "../footer/footer.php";?>
+
+</html>
