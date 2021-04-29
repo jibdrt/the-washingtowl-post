@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<div class="container">
+
     <div class="row ">
         <div class="col-sm-12 col-md-12 ps-3 bckg-color m-auto">
             <img src="../header/GOODV.svg" alt="" class="logo">
@@ -37,7 +37,7 @@
    </div>
     </nav>
   </div>
-</div>
+
   
 <!-- Fin Navbar -->
 </body>
