@@ -31,8 +31,13 @@ a:link{
 .footer__titre{
     font-family: 'mermaid swash caps';
     font-size: 34px;
-    margin-left: 100px
+    text-align: center;
 }
+
+.footer__titre img{
+    margin-right: 10px;
+}
+
 .footer__mentions{
     margin:auto;
 }
