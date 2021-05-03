@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/GOODV.svg" type="image/svg">
     <title>Les métiers du Web</title>
 </head>
 <body>
@@ -14,10 +15,10 @@
 
 <body>
 <?php include "../header/header.php";?>  
-    <div class="container bg-white>
+    <div class="container bg-white">
      
 
-    <div class="row ">
+    <div class="row">
         <div class="col-sm-12 col-md-5 h2 mt-3">
         <h1 class="titre__h1--metier">Les Métiers du Web</h1>
         </div>
@@ -68,6 +69,8 @@
     </div>
 
 
-</div>  
+</div> 
+<div class="container">
 <?php include "../footer/footer.php";?>
+</div>
 </body>

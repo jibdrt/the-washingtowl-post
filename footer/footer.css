@@ -25,8 +25,7 @@ a:link{
 
 }
 .footer__haut-page:hover{
-    background-color: white;
-    color: var(--primary-color);
+    color: white;
     cursor: pointer;
 }
 .footer__titre{
@@ -39,7 +38,22 @@ a:link{
 }
 
 .footer__mentions:hover{
-    background-color: white;
-    color: var(--primary-color);
+    color: white;
     cursor: pointer;
 }
+
+a {
+    text-decoration: none;
+    color: white;
+    }
+
+@font-face {
+    font-family: 'rubik';
+    src: url('../assets/font/Rubik-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'merriweather';
+    src: url('../assets/font/Merriweather-Regular.ttf');
+}
+

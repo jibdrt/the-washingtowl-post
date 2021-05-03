@@ -7,12 +7,13 @@
     <meta name="description" content="Intégration d'une maquette conçue par un webdesigner professionnel téléchargée sur Figma.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="ecocabsquare.png" type="image/png">
+    <link rel="shortcut icon" href="../assets/GOODV.svg" type="image/svg">
+    
     <title>Page d'accueil</title>
 </head>
 
 
-<body class="bg-dark">
+
 <div class="container bg-white">
 
 <?php include "../header/header.php";?>
@@ -23,12 +24,14 @@
 
 <div class="row justify-content-end">
               <div id="social-network" class="col-sm-1">
+                Jb
                 <a href="https://github.com/jibdrt"
                 target="_blank">
                 <span class="social-network-pointer text-white">Github</span></a>
                 
                 <a href="https://www.linkedin.com/in/jean-baptiste-druet-838593144" target="_blank">
                 <span class="social-network-pointer text-white">Linkedin</span></a>
+                Will
                 <a href="https://github.com/WilliamsChazal" target="_blank">
                 <span class="social-network-pointer text-white">Github</span></a>
                 <a href="https://www.linkedin.com/in/williams-chazal-0a05a313a/" target="_blank">
@@ -136,7 +139,8 @@
 
 
  
-
+</div>
+</div>
 </div>
 
 

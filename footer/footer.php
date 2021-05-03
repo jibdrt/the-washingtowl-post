@@ -9,15 +9,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
 </head>
+
 <body class="bg-dark">
-  <div class="container">
+
           <div class="row footer__background-color footer_font-color">
-                  <div class="col-sm-12 col-md-2 footer__haut-page">
+                  <div class="col-sm-12 col-md-2 footer__haut-page text-white">
                       <a href =#> Haut de la page </a></div>
                   <div class="col-sm-12 col-md-6 footer__titre me-5"><img src="../footer/GOODV.svg">The   Washingt' Owl  Post</div>
-                  <div class="col-sm-12 col-md-2 footer__mentions "><a href=../mention-legales/mention-legales.php>  Mentions légales</a></div>        
+                  <div class="col-sm-12 col-md-2 footer__mentions text-white"><a href=../mention-legales/mention-legales.php>  Mentions légales</a></div>        
            </div>
-    </div>
+
       
     
 

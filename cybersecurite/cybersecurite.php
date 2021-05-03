@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/GOODV.svg" type="image/svg">
     <title>La Cybersécurité</title>
 </head>
 <body>
@@ -58,7 +59,7 @@
             </div>
             <div class="col-sm-12 col-md-6 ">
                 <div class="row"><h3 class="titre__h3">Pourquoi et comment protéger ses données ?</h3></div>
-                <div class="row"> <p class="paragraphe__middle"> Internet est aujourd’hui loin d’être anonyme et énormément de données y transitent tous les jours. Améliorer la protection liée à ses propres données reste donc essentiel afin que celles-ci puissent éviter de tomber entre de mauvaises mains.Protéger ses données devient essentiel en 2020. De plus en plus d’internautes se posent cette question de protection des données à l’heure ou le web ne cesse de prendre de la place dans la vie quotidienne de chacun d’entre nous. Il existe de nombreuses bonnes pratiques pour assurer la protection de vos donées.</p>
+                <div class="row"> <p class="paragraphe__middle"> Internet est aujourd’hui loin d’être anonyme et énormément de données y transitent tous les jours. Améliorer la protection liée à ses propres données reste donc essentiel afin que celles-ci puissent éviter de tomber entre de mauvaises mains.Protéger ses données devient essentiel en 2020. De plus en plus d’internautes se posent cette question de protection des données à l’heure ou le web ne cesse de prendre de la place dans la vie quotidienne de chacun d’entre nous. Il existe de nombreuses bonnes pratiques pour assurer la protection de vos données.</p>
                 <div class="row mb-5 mt-5 flip-card__opacity"><?php include "flip-card-3/flip-card-3.php";?></div>
                 </div>  
                
@@ -70,4 +71,6 @@
 
 </div>  
 </body>
+<div class="container">
 <?php include "../footer/footer.php";?>
+</div>

@@ -16,7 +16,7 @@
             
             <div class="card__face-3 card__face--back-3">
                <div class="card__content-3">
-                   <div class="card__header--back-3 card__header--front--3--h2"><h2> Online forma Pro et l'ACS </h2></div>
+                   <div class="card__header--back-3 card__header--front--3--h2"><h2> Onlineformapro et l'ACS </h2></div>
                    <div class="card__body--back-3"><img src="../assets/webdev.svg" alt="" class="card__body--back--image-webdev"></div>
                    <div class="card__footer--back-3 "> <a href="https://www.accesscodeschool.fr/" target="_blank" ><button class="card__footer--back--3--button">Allez sur le site de l'ACS</button></a></div>
                </div> 
