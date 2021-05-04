@@ -337,6 +337,14 @@ width : 600px;
 }
 
 
+@media screen and (max-width:805px) {
+    #onpic{
+        margin: auto;
+    }
+    
+}
+
+
 
 #conclus{
     font-family: 'Merriweather-bl';
