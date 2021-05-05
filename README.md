@@ -4,22 +4,22 @@
 
 - [X] index.php
     - [ ] includes/
-        - [ ] header.php 
-        - [ ] footer.php 
-        - [ ] navbar.php 
-    - [ ] pages/
-        - [ ]  [nom-de-page].php 
+        - [x] header.php 
+        - [x] footer.php 
+        - [x] navbar.php 
+    - [x] pages/
+        - [x]  [nom-de-page].php 
     - [ ] legal-notice.php 
-- [ ] assets/
-    - [ ] images/
-        - [ ] icons/          
-        - [ ] pictures/
+- [x] assets/
+    - [x] images/
+        - [x] icons/          
+        - [x] pictures/
     - [X] styles/
         - [X] main.css 
     - [X] scripts/
         - [X] main.js 
 - [X] .gitignore
-- [ ] robots.txt 
-- [ ] sitemap.xml
+- [x] robots.txt 
+- [x] sitemap.xml
 - [X] README.md
-- [ ] LICENCE
+- [x] LICENCE
