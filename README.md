@@ -3,13 +3,13 @@
 ## Structure du *repository*
 
 - [X] index.php
-    - [ ] includes/
+    - [x] includes/
         - [x] header.php 
         - [x] footer.php 
         - [x] navbar.php 
     - [x] pages/
         - [x]  [nom-de-page].php 
-    - [ ] legal-notice.php 
+    - [x] legal-notice.php 
 - [x] assets/
     - [x] images/
         - [x] icons/          
