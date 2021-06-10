@@ -1,0 +1,106 @@
+
+
+@font-face{
+    font-family: 'Merriweather';
+    src: url('Merriweather-Black.ttf');
+}
+
+@font-face{
+    font-family: 'Rubik-Medium';
+    src: url('Rubik-Medium.ttf');
+}
+
+@font-face{
+    font-family:'Rubik-Bold';
+    src: url('Rubik-Bold.ttf')
+}
+
+@font-face{
+    font-family:'Merriweather-regul';
+    src: url('Merriweather-Regular.ttf');
+}
+
+*{
+    color: white;
+}
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 660px;
+}
+
+
+.wrapper1{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 360px;
+}
+
+
+.wrapper2{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 560px;
+}
+
+
+
+
+
+#bg{
+    background-image: url(geometrix.jpg);
+    background-position: center;
+    z-index: 1;
+    position: relative;
+
+}
+
+
+.mdw{
+    color: white;
+    font-family: 'Rubik-Medium';
+    font-size: 16px;
+}
+
+.bg1{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+}
+
+
+#bg h1{
+    color: white;
+    font-family: 'Merriweather';
+    font-size: 30px;
+
+}
+
+#painting{
+    display: grid;
+    width: 500px;
+
+
+    
+}
+
+
+*{
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
