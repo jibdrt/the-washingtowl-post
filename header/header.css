@@ -1,4 +1,22 @@
+@font-face{
+    font-family: 'Merriweather';
+    src: url('Merriweather-Black.ttf');
+}
 
+@font-face{
+    font-family: 'Rubik-Medium';
+    src: url('Rubik-Medium.ttf');
+}
+
+@font-face{
+    font-family:'Rubik-Bold';
+    src: url('Rubik-Bold.ttf')
+}
+
+@font-face{
+    font-family:'Merriweather-regul';
+    src: url('Merriweather-Regular.ttf');
+}
 
 a:link 
 { 
@@ -7,9 +25,15 @@ a:link
 
 
 body{
-    zoom:80%
+    zoom:80%;
 
 }
+
+.logo{
+    width: 100px;
+    margin-top: 10px;
+}
+
 
 :root{
     --primary-color: #2D394E;
@@ -20,6 +44,7 @@ body{
 
 .bckg-color{
     background-color: var(--primary-color);
+    border-radius: 0px 0px 10px 10px;
 }
 #h1{
     font-family: 'Mermaid Swash Caps';
@@ -34,8 +59,9 @@ body{
 }
 
 .navbar{
-background-color: var(--secondary-color);
 font-size:18px ;
+border-radius: 10px;
+font-family: 'Rubik-Bold';
 }
 
 .nav-link{
