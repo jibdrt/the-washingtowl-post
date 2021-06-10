@@ -79,7 +79,7 @@ font-family: fantasy;
 
 @media screen and (max-width: 700px) {
     #playbuton{
-      display: none;
+      display: inline-block;
     }
 }
 
@@ -93,9 +93,12 @@ font-family: fantasy;
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    font-family: 'Merriweather';
-    box-shadow: #222F33 8px 8px;
+    font-size: 25px;
+    font-family:'Rubik-Bold';
     margin-top: 5rem;
+    border: none;
+    background: transparent;
+    color: white;
     
 }
 
@@ -233,6 +236,7 @@ font-family: fantasy;
 
 
 
+
 #cybersecumetier{
     font-family:'Merriweather';
     font-weight: bolder;
@@ -295,9 +299,9 @@ width: 500px;
     margin-left: 200px;
     margin-top: -100px;
     position: absolute;
-
+background-size: cover;
     background-color:#222F33;
-    border: 1px #222222 solid;
+    border: 1px #ffffff solid;
 
 }
 

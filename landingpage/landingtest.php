@@ -73,7 +73,7 @@
           Lire l'article
           </button></a>
 </div>
-      <div class="col-md-6"><img src="pic2.jpg" id="poutre"></div>
+      <div class="col-md-6"><img src="painting1.png" id="poutre"></div>
 </div>
 
 
